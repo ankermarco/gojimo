@@ -15,6 +15,8 @@
 		8A829EEB1CD22B7100E13F62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A829EE91CD22B7100E13F62 /* LaunchScreen.storyboard */; };
 		8A829EF61CD22B7100E13F62 /* GojimoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A829EF51CD22B7100E13F62 /* GojimoTests.swift */; };
 		8A829F011CD22B7100E13F62 /* GojimoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A829F001CD22B7100E13F62 /* GojimoUITests.swift */; };
+		8A829F111CD26C5300E13F62 /* GomojiManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A829F101CD26C5300E13F62 /* GomojiManagerDelegate.swift */; };
+		8A829F131CD2747F00E13F62 /* GomojiCommunicatorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A829F121CD2747F00E13F62 /* GomojiCommunicatorDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		8A829EFC1CD22B7100E13F62 /* GojimoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GojimoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A829F001CD22B7100E13F62 /* GojimoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GojimoUITests.swift; sourceTree = "<group>"; };
 		8A829F021CD22B7100E13F62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A829F101CD26C5300E13F62 /* GomojiManagerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GomojiManagerDelegate.swift; sourceTree = "<group>"; };
+		8A829F121CD2747F00E13F62 /* GomojiCommunicatorDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GomojiCommunicatorDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				8A829EE91CD22B7100E13F62 /* LaunchScreen.storyboard */,
 				8A829EEC1CD22B7100E13F62 /* Info.plist */,
 				8A829EE41CD22B7100E13F62 /* Gojimo.xcdatamodeld */,
+				8A829F101CD26C5300E13F62 /* GomojiManagerDelegate.swift */,
+				8A829F121CD2747F00E13F62 /* GomojiCommunicatorDelegate.swift */,
 			);
 			path = Gojimo;
 			sourceTree = "<group>";
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A829EE61CD22B7100E13F62 /* Gojimo.xcdatamodeld in Sources */,
+				8A829F111CD26C5300E13F62 /* GomojiManagerDelegate.swift in Sources */,
 				8A829EE01CD22B7100E13F62 /* ViewController.swift in Sources */,
+				8A829F131CD2747F00E13F62 /* GomojiCommunicatorDelegate.swift in Sources */,
 				8A829EDE1CD22B7100E13F62 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
