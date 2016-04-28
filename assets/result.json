@@ -1,0 +1,2001 @@
+[
+  {
+    "id": "04ec172d-0c8f-4c09-94b4-d797b9481171",
+    "name": "ASVAB",
+    "country": {
+      "code": "US",
+      "name": "United States",
+      "created_at": "2014-04-12T10:06:33.000Z",
+      "updated_at": "2014-04-12T10:06:33.000Z",
+      "link": "/api/v4/countries/US"
+    },
+    "subjects": [],
+    "link": "/api/v4/qualifications/04ec172d-0c8f-4c09-94b4-d797b9481171",
+    "default_products": [
+      {
+        "id": "72ad8529-aece-4769-a026-85c86c1b70d3",
+        "title": "McGraw Hill's ASVAB Test Prep Sample",
+        "link": "/api/v4/products/72ad8529-aece-4769-a026-85c86c1b70d3",
+        "ios_iap_id": "",
+        "store_ids": [],
+        "type": "question_pack",
+        "assets": [
+          {
+            "id": "70210dd7-b366-49a6-ab29-059d662b15e5",
+            "copyright": null,
+            "meta": null,
+            "size": 770305,
+            "content_type": "",
+            "created_at": "2015-07-01T08:59:21.000Z",
+            "updated_at": "2015-07-01T08:59:21.000Z",
+            "path": "https://gojimo.s3.amazonaws.com/production/assets/70210dd7-b366-49a6-ab29-059d662b15e5/RackMultipart20150612-7673-byt5us",
+            "unzipped_base_url": null,
+            "info": [
+              {
+                "meta": "\"coverImage\": \"true\""
+              }
+            ],
+            "link": "/api/v4/assets/70210dd7-b366-49a6-ab29-059d662b15e5"
+          },
+          {
+            "id": "94c4e378-8239-447a-8b50-65fc204d8f80",
+            "copyright": null,
+            "meta": null,
+            "size": 770305,
+            "content_type": "",
+            "created_at": "2015-07-01T08:59:21.000Z",
+            "updated_at": "2015-07-01T08:59:21.000Z",
+            "path": "https://gojimo.s3.amazonaws.com/production/assets/94c4e378-8239-447a-8b50-65fc204d8f80/RackMultipart20150612-7673-byt5us",
+            "unzipped_base_url": null,
+            "info": [
+              {
+                "meta": "\"coverImage@2x\": \"true\""
+              }
+            ],
+            "link": "/api/v4/assets/94c4e378-8239-447a-8b50-65fc204d8f80"
+          },
+          {
+            "id": "b815bf22-e744-42e8-b9b3-88593db9edde",
+            "copyright": null,
+            "meta": null,
+            "size": null,
+            "content_type": null,
+            "created_at": "2015-07-01T08:59:22.000Z",
+            "updated_at": "2015-07-01T08:59:22.000Z",
+            "path": null,
+            "unzipped_base_url": null,
+            "info": [],
+            "link": "/api/v4/assets/b815bf22-e744-42e8-b9b3-88593db9edde"
+          },
+          {
+            "id": "fa6c496e-a748-402d-a2e9-db5cae94c9ad",
+            "copyright": null,
+            "meta": null,
+            "size": 770305,
+            "content_type": "",
+            "created_at": "2015-07-01T08:59:22.000Z",
+            "updated_at": "2015-07-01T08:59:22.000Z",
+            "path": "https://gojimo.s3.amazonaws.com/production/assets/fa6c496e-a748-402d-a2e9-db5cae94c9ad/RackMultipart20150612-7673-byt5us",
+            "unzipped_base_url": "https://gojimo.s3.amazonaws.com/production/assets/fa6c496e-a748-402d-a2e9-db5cae94c9ad/unzipped",
+            "info": [
+              {
+                "meta": "\"allAssets\": \"true\""
+              }
+            ],
+            "link": "/api/v4/assets/fa6c496e-a748-402d-a2e9-db5cae94c9ad"
+          },
+          {
+            "id": "a27ee4cf-a7e6-48e9-a666-757acd175d7e",
+            "copyright": null,
+            "meta": null,
+            "size": null,
+            "content_type": null,
+            "created_at": "2015-07-01T08:59:22.000Z",
+            "updated_at": "2015-07-01T08:59:22.000Z",
+            "path": null,
+            "unzipped_base_url": null,
+            "info": [],
+            "link": "/api/v4/assets/a27ee4cf-a7e6-48e9-a666-757acd175d7e"
+          },
+          {
+            "id": "e5f29de4-385e-48fb-accf-83e3e801461c",
+            "copyright": null,
+            "meta": "coverImage",
+            "size": 342528,
+            "content_type": "image/png",
+            "created_at": "2015-07-01T09:03:22.000Z",
+            "updated_at": "2015-07-07T12:04:07.000Z",
+            "path": "https://gojimo.s3.amazonaws.com/production/assets/e5f29de4-385e-48fb-accf-83e3e801461c/640x960_ASVAB_Splash.png",
+            "unzipped_base_url": null,
+            "info": [],
+            "link": "/api/v4/assets/e5f29de4-385e-48fb-accf-83e3e801461c"
+          },
+          {
+            "id": "c0b03fd3-2de5-42c7-905f-097d7c18a677",
+            "copyright": null,
+            "meta": "coverImage@2x",
+            "size": 342528,
+            "content_type": "image/png",
+            "created_at": "2015-07-01T09:03:23.000Z",
+            "updated_at": "2015-07-07T12:04:07.000Z",
+            "path": "https://gojimo.s3.amazonaws.com/production/assets/c0b03fd3-2de5-42c7-905f-097d7c18a677/640x960_ASVAB_Splash.png",
+            "unzipped_base_url": null,
+            "info": [],
+            "link": "/api/v4/assets/c0b03fd3-2de5-42c7-905f-097d7c18a677"
+          }
+        ],
+        "publisher": {
+          "id": "c43bc699-64f3-4d7e-8485-9b78b5366379",
+          "title": "McGraw-Hill Education",
+          "link": "/api/v4/publishers/c43bc699-64f3-4d7e-8485-9b78b5366379"
+        },
+        "author": "Janet E. Wall"
+      }
+    ]
+  },
+  {
+    "id": "0a891cb9-82af-4b76-b0fa-df134a85b6a0",
+    "name": "Test",
+    "country": null,
+    "subjects": [],
+    "link": "/api/v4/qualifications/0a891cb9-82af-4b76-b0fa-df134a85b6a0",
+    "default_products": []
+  },
+  {
+    "id": "16a2849e-29b2-4d87-8ca9-30616dcb32eb",
+    "name": "Nursing",
+    "country": {
+      "code": "US",
+      "name": "United States",
+      "created_at": "2014-04-12T10:06:33.000Z",
+      "updated_at": "2014-04-12T10:06:33.000Z",
+      "link": "/api/v4/countries/US"
+    },
+    "subjects": [],
+    "link": "/api/v4/qualifications/16a2849e-29b2-4d87-8ca9-30616dcb32eb",
+    "default_products": [
+      {
+        "id": "c921c54d-b9b6-4474-8724-178f59970733",
+        "title": "McGraw Hill's Evolve Reach (HESI) A2 Practice Tests Sample",
+        "link": "/api/v4/products/c921c54d-b9b6-4474-8724-178f59970733",
+        "ios_iap_id": "",
+        "store_ids": [],
+        "type": "question_pack",
+        "assets": [
+          {
+            "id": "d95cbf68-0407-4c67-8d91-1c2de8e075a0",
+            "copyright": null,
+            "meta": null,
+            "size": 789590,
+            "content_type": "",
+            "created_at": "2015-07-31T14:53:48.000Z",
+            "updated_at": "2015-07-31T14:53:48.000Z",
+            "path": "https://gojimo.s3.amazonaws.com/production/assets/d95cbf68-0407-4c67-8d91-1c2de8e075a0/RackMultipart20150731-7850-1npijub",
+            "unzipped_base_url": null,
+            "info": [
+              {
+                "meta": "\"coverImage@2x\": \"true\""
+              }
+            ],
+            "link": "/api/v4/assets/d95cbf68-0407-4c67-8d91-1c2de8e075a0"
+          },
+          {
+            "id": "903c220a-912c-4626-b8b3-232b02a3783a",
+            "copyright": null,
+            "meta": null,
+            "size": 789590,
+            "content_type": "",
+            "created_at": "2015-07-31T14:53:48.000Z",
+            "updated_at": "2015-07-31T14:53:48.000Z",
+            "path": "https://gojimo.s3.amazonaws.com/production/assets/903c220a-912c-4626-b8b3-232b02a3783a/RackMultipart20150731-7850-1npijub",
+            "unzipped_base_url": "https://gojimo.s3.amazonaws.com/production/assets/903c220a-912c-4626-b8b3-232b02a3783a/unzipped",
+            "info": [
+              {
+                "meta": "\"allAssets\": \"true\""
+              }
+            ],
+            "link": "/api/v4/assets/903c220a-912c-4626-b8b3-232b02a3783a"
+          },
+          {
+            "id": "107f08cf-f234-442a-a961-00ee8ed112e0",
+            "copyright": null,
+            "meta": null,
+            "size": 234108,
+            "content_type": "image/jpeg",
+            "created_at": "2015-07-31T14:53:49.000Z",
+            "updated_at": "2015-07-31T14:53:49.000Z",
+            "path": "https://gojimo.s3.amazonaws.com/production/assets/107f08cf-f234-442a-a961-00ee8ed112e0/0071800573.jpg",
+            "unzipped_base_url": null,
+            "info": [],
+            "link": "/api/v4/assets/107f08cf-f234-442a-a961-00ee8ed112e0"
+          },
+          {
+            "id": "144a18e0-45c9-4013-8c21-c3416bb7394a",
+            "copyright": null,
+            "meta": null,
+            "size": 789590,
+            "content_type": "",
+            "created_at": "2015-07-31T14:53:48.000Z",
+            "updated_at": "2015-07-31T14:53:48.000Z",
+            "path": "https://gojimo.s3.amazonaws.com/production/assets/144a18e0-45c9-4013-8c21-c3416bb7394a/RackMultipart20150731-7850-1npijub",
+            "unzipped_base_url": null,
+            "info": [
+              {
+                "meta": "\"coverImage\": \"true\""
+              }
+            ],
+            "link": "/api/v4/assets/144a18e0-45c9-4013-8c21-c3416bb7394a"
+          },
+          {
+            "id": "08918fd0-90c3-4051-be9f-e44a04aa72c0",
+            "copyright": null,
+            "meta": null,
+            "size": 234108,
+            "content_type": "image/jpeg",
+            "created_at": "2015-07-31T14:53:49.000Z",
+            "updated_at": "2015-07-31T14:53:49.000Z",
+            "path": "https://gojimo.s3.amazonaws.com/production/assets/08918fd0-90c3-4051-be9f-e44a04aa72c0/0071800573.jpg",
+            "unzipped_base_url": null,
+            "info": [],
+            "link": "/api/v4/assets/08918fd0-90c3-4051-be9f-e44a04aa72c0"
+          },
+          {
+            "id": "96e697d7-fa45-489b-819a-3fb2afd959f8",
+            "copyright": null,
+            "meta": "coverImage@2x",
+            "size": 234108,
+            "content_type": "image/jpeg",
+            "created_at": "2015-07-31T14:55:12.000Z",
+            "updated_at": "2015-07-31T14:55:52.000Z",
+            "path": "https://gojimo.s3.amazonaws.com/production/assets/96e697d7-fa45-489b-819a-3fb2afd959f8/0071800573.jpg",
+            "unzipped_base_url": null,
+            "info": [],
+            "link": "/api/v4/assets/96e697d7-fa45-489b-819a-3fb2afd959f8"
+          },
+          {
+            "id": "c4d13289-ae47-4500-baa4-8498c28f8b02",
+            "copyright": null,
+            "meta": "coverImage",
+            "size": 234108,
+            "content_type": "image/jpeg",
+            "created_at": "2015-07-31T14:55:12.000Z",
+            "updated_at": "2015-07-31T14:55:52.000Z",
+            "path": "https://gojimo.s3.amazonaws.com/production/assets/c4d13289-ae47-4500-baa4-8498c28f8b02/0071800573.jpg",
+            "unzipped_base_url": null,
+            "info": [],
+            "link": "/api/v4/assets/c4d13289-ae47-4500-baa4-8498c28f8b02"
+          }
+        ],
+        "publisher": {
+          "id": "c43bc699-64f3-4d7e-8485-9b78b5366379",
+          "title": "McGraw-Hill Education",
+          "link": "/api/v4/publishers/c43bc699-64f3-4d7e-8485-9b78b5366379"
+        },
+        "author": "Kathy A. Zahler"
+      },
+      {
+        "id": "dcb446b7-96b2-4494-a7a7-ba75626cadfd",
+        "title": "McGraw Hill's NLN PAX-RN Test Prep Sample",
+        "link": "/api/v4/products/dcb446b7-96b2-4494-a7a7-ba75626cadfd",
+        "ios_iap_id": "",
+        "store_ids": [],
+        "type": "question_pack",
+        "assets": [
+          {
+            "id": "000d4296-9de1-4bb3-b144-f4a3f4dd9317",
+            "copyright": null,
+            "meta": null,
+            "size": 6780950,
+            "content_type": "",
+            "created_at": "2015-07-01T09:29:05.000Z",
+            "updated_at": "2015-07-01T09:29:05.000Z",
+            "path": "https://gojimo.s3.amazonaws.com/production/assets/000d4296-9de1-4bb3-b144-f4a3f4dd9317/RackMultipart20150623-1097-11v0pxc",
+            "unzipped_base_url": null,
+            "info": [
+              {
+                "meta": "\"coverImage@2x\": \"true\""
+              }
+            ],
+            "link": "/api/v4/assets/000d4296-9de1-4bb3-b144-f4a3f4dd9317"
+          },
+          {
+            "id": "d7fbd893-8a5e-413c-9471-45176a4ff9ae",
+            "copyright": null,
+            "meta": null,
+            "size": 6780950,
+            "content_type": "",
+            "created_at": "2015-07-01T09:29:06.000Z",
+            "updated_at": "2015-07-01T09:29:06.000Z",
+            "path": "https://gojimo.s3.amazonaws.com/production/assets/d7fbd893-8a5e-413c-9471-45176a4ff9ae/RackMultipart20150623-1097-11v0pxc",
+            "unzipped_base_url": "https://gojimo.s3.amazonaws.com/production/assets/d7fbd893-8a5e-413c-9471-45176a4ff9ae/unzipped",
+            "info": [
+              {
+                "meta": "\"allAssets\": \"true\""
+              }
+            ],
+            "link": "/api/v4/assets/d7fbd893-8a5e-413c-9471-45176a4ff9ae"
+          },
+          {
+            "id": "3dcd1a01-b67f-4d1d-a1a0-31e888b0bf37",
+            "copyright": null,
+            "meta": null,
+            "size": 6780950,
+            "content_type": "",
+            "created_at": "2015-07-01T09:29:08.000Z",
+            "updated_at": "2015-07-01T09:29:08.000Z",
+            "path": "https://gojimo.s3.amazonaws.com/production/assets/3dcd1a01-b67f-4d1d-a1a0-31e888b0bf37/RackMultipart20150623-1097-11v0pxc",
+            "unzipped_base_url": null,
+            "info": [
+              {
+                "meta": "\"coverImage\": \"true\""
+              }
+            ],
+            "link": "/api/v4/assets/3dcd1a01-b67f-4d1d-a1a0-31e888b0bf37"
+          },
+          {
+            "id": "d8b64b56-5d55-4515-8624-bfd053e33f18",
+            "copyright": null,
+            "meta": null,
+            "size": null,
+            "content_type": null,
+            "created_at": "2015-07-01T09:29:08.000Z",
+            "updated_at": "2015-07-01T09:29:08.000Z",
+            "path": null,
+            "unzipped_base_url": null,
+            "info": [],
+            "link": "/api/v4/assets/d8b64b56-5d55-4515-8624-bfd053e33f18"
+          },
+          {
+            "id": "d06ab663-52d7-455c-97e5-daa249defed9",
+            "copyright": null,
+            "meta": null,
+            "size": null,
+            "content_type": null,
+            "created_at": "2015-07-01T09:29:08.000Z",
+            "updated_at": "2015-07-01T09:29:08.000Z",
+            "path": null,
+            "unzipped_base_url": null,
+            "info": [],
+            "link": "/api/v4/assets/d06ab663-52d7-455c-97e5-daa249defed9"
+          },
+          {
+            "id": "9832a15b-ce1e-4352-ab50-9b15d4490273",
+            "copyright": null,
+            "meta": "coverImage@2x",
+            "size": 269504,
+            "content_type": "image/jpeg",
+            "created_at": "2015-07-01T09:33:49.000Z",
+            "updated_at": "2015-07-07T14:29:12.000Z",
+            "path": "https://gojimo.s3.amazonaws.com/production/assets/9832a15b-ce1e-4352-ab50-9b15d4490273/007178988X.jpg",
+            "unzipped_base_url": null,
+            "info": [],
+            "link": "/api/v4/assets/9832a15b-ce1e-4352-ab50-9b15d4490273"
+          },
+          {
+            "id": "b413e204-11e8-4110-a6ef-16cfa88d06b8",
+            "copyright": null,
+            "meta": "coverImage",
+            "size": 269504,
+            "content_type": "image/jpeg",
+            "created_at": "2015-07-01T09:33:49.000Z",
+            "updated_at": "2015-07-07T14:29:12.000Z",
+            "path": "https://gojimo.s3.amazonaws.com/production/assets/b413e204-11e8-4110-a6ef-16cfa88d06b8/007178988X.jpg",
+            "unzipped_base_url": null,
+            "info": [],
+            "link": "/api/v4/assets/b413e204-11e8-4110-a6ef-16cfa88d06b8"
+          }
+        ],
+        "publisher": {
+          "id": "c43bc699-64f3-4d7e-8485-9b78b5366379",
+          "title": "McGraw-Hill Education",
+          "link": "/api/v4/publishers/c43bc699-64f3-4d7e-8485-9b78b5366379"
+        },
+        "author": "Joseph Brennan"
+      },
+      {
+        "id": "e68c4d0e-f112-4976-9d56-e8cf52f54023",
+        "title": "McGraw Hill's TEAS Practice Tests Sample",
+        "link": "/api/v4/products/e68c4d0e-f112-4976-9d56-e8cf52f54023",
+        "ios_iap_id": "",
+        "store_ids": [],
+        "type": "question_pack",
+        "assets": [
+          {
+            "id": "86274c05-9bc3-4f52-b871-20f699028443",
+            "copyright": null,
+            "meta": null,
+            "size": null,
+            "content_type": null,
+            "created_at": "2015-06-30T09:03:38.000Z",
+            "updated_at": "2015-06-30T09:03:38.000Z",
+            "path": null,
+            "unzipped_base_url": null,
+            "info": [],
+            "link": "/api/v4/assets/86274c05-9bc3-4f52-b871-20f699028443"
+          },
+          {
+            "id": "88881248-b8a9-47fc-ade9-56ec1b284a6e",
+            "copyright": null,
+            "meta": null,
+            "size": null,
+            "content_type": null,
+            "created_at": "2015-06-30T09:03:38.000Z",
+            "updated_at": "2015-06-30T09:03:38.000Z",
+            "path": null,
+            "unzipped_base_url": null,
+            "info": [],
+            "link": "/api/v4/assets/88881248-b8a9-47fc-ade9-56ec1b284a6e"
+          },
+          {
+            "id": "0adc5133-7152-43b1-9535-528efc15d8c4",
+            "copyright": null,
+            "meta": null,
+            "size": 5373633,
+            "content_type": "",
+            "created_at": "2015-06-30T09:03:38.000Z",
+            "updated_at": "2015-06-30T09:03:38.000Z",
+            "path": "https://gojimo.s3.amazonaws.com/production/assets/0adc5133-7152-43b1-9535-528efc15d8c4/RackMultipart20150623-4429-cya8s9",
+            "unzipped_base_url": "https://gojimo.s3.amazonaws.com/production/assets/0adc5133-7152-43b1-9535-528efc15d8c4/unzipped",
+            "info": [
+              {
+                "meta": "\"allAssets\": \"true\""
+              }
+            ],
+            "link": "/api/v4/assets/0adc5133-7152-43b1-9535-528efc15d8c4"
+          },
+          {
+            "id": "f1a1b854-cfed-473f-84b5-569fe3689104",
+            "copyright": null,
+            "meta": "coverImage",
+            "size": 149369,
+            "content_type": "image/png",
+            "created_at": "2015-06-30T09:06:35.000Z",
+            "updated_at": "2015-07-07T12:09:38.000Z",
+            "path": "https://gojimo.s3.amazonaws.com/production/assets/f1a1b854-cfed-473f-84b5-569fe3689104/640x960_TEAS_Splash.png",
+            "unzipped_base_url": null,
+            "info": [],
+            "link": "/api/v4/assets/f1a1b854-cfed-473f-84b5-569fe3689104"
+          },
+          {
+            "id": "9122a8d1-5549-49b1-8a92-2a3208cac6c6",
+            "copyright": null,
+            "meta": "coverImage@2x",
+            "size": 149369,
+            "content_type": "image/png",
+            "created_at": "2015-06-30T09:06:35.000Z",
+            "updated_at": "2015-07-07T12:09:38.000Z",
+            "path": "https://gojimo.s3.amazonaws.com/production/assets/9122a8d1-5549-49b1-8a92-2a3208cac6c6/640x960_TEAS_Splash.png",
+            "unzipped_base_url": null,
+            "info": [],
+            "link": "/api/v4/assets/9122a8d1-5549-49b1-8a92-2a3208cac6c6"
+          }
+        ],
+        "publisher": {
+          "id": "c43bc699-64f3-4d7e-8485-9b78b5366379",
+          "title": "McGraw-Hill Education",
+          "link": "/api/v4/publishers/c43bc699-64f3-4d7e-8485-9b78b5366379"
+        },
+        "author": "Kathy A. Zahler"
+      }
+    ]
+  },
+  {
+    "id": "2622c2f7-73cb-49fa-941e-204f6735d0d8",
+    "name": "Junior Certificate",
+    "country": {
+      "code": "IE",
+      "name": "Ireland",
+      "created_at": "2014-04-12T10:06:31.000Z",
+      "updated_at": "2014-04-12T10:06:31.000Z",
+      "link": "/api/v4/countries/IE"
+    },
+    "subjects": [
+      {
+        "id": "79ab192a-9cd7-4d07-859b-6e8f4668ddfa",
+        "title": "Latin",
+        "link": "/api/v4/subjects/79ab192a-9cd7-4d07-859b-6e8f4668ddfa",
+        "colour": "#F1F1F1"
+      },
+      {
+        "id": "ef319206-aa64-41f5-ac67-17a4fb8d10f6",
+        "title": "English",
+        "link": "/api/v4/subjects/ef319206-aa64-41f5-ac67-17a4fb8d10f6",
+        "colour": "#ECF7E2"
+      },
+      {
+        "id": "5f0b46ba-f5ea-4eaa-8e62-a136a79c38df",
+        "title": "Science",
+        "link": "/api/v4/subjects/5f0b46ba-f5ea-4eaa-8e62-a136a79c38df",
+        "colour": "#DFDFDF"
+      },
+      {
+        "id": "314d367c-13d5-4a85-9b7a-fead988ab93e",
+        "title": "Religious Studies",
+        "link": "/api/v4/subjects/314d367c-13d5-4a85-9b7a-fead988ab93e",
+        "colour": "#FFE8E9"
+      },
+      {
+        "id": "94eb09ae-cabc-46b5-85c9-2170004ce2ef",
+        "title": "Spanish",
+        "link": "/api/v4/subjects/94eb09ae-cabc-46b5-85c9-2170004ce2ef",
+        "colour": "#FFF8CD"
+      },
+      {
+        "id": "0fe4c738-f43c-4a66-bd5b-fc9cf6255355",
+        "title": "Maths",
+        "link": "/api/v4/subjects/0fe4c738-f43c-4a66-bd5b-fc9cf6255355",
+        "colour": "#EAE1EF"
+      },
+      {
+        "id": "cf7e2325-3d68-4472-96f0-3a0ccc670f9b",
+        "title": "Geography",
+        "link": "/api/v4/subjects/cf7e2325-3d68-4472-96f0-3a0ccc670f9b",
+        "colour": "#E6F7FE"
+      },
+      {
+        "id": "bae98002-f1a1-4d6f-b156-1e2db439079b",
+        "title": "French",
+        "link": "/api/v4/subjects/bae98002-f1a1-4d6f-b156-1e2db439079b",
+        "colour": "#E3EEFF"
+      }
+    ],
+    "link": "/api/v4/qualifications/2622c2f7-73cb-49fa-941e-204f6735d0d8",
+    "default_products": []
+  },
+  {
+    "id": "50708d25-af17-4c73-a3b4-89b943790be4",
+    "name": "SAT",
+    "country": {
+      "code": "US",
+      "name": "United States",
+      "created_at": "2014-04-12T10:06:33.000Z",
+      "updated_at": "2014-04-12T10:06:33.000Z",
+      "link": "/api/v4/countries/US"
+    },
+    "subjects": [
+      {
+        "id": "a5f99685-15a0-4a74-82b5-6f15496d8934",
+        "title": "Practice Tests",
+        "link": "/api/v4/subjects/a5f99685-15a0-4a74-82b5-6f15496d8934",
+        "colour": "#7b8dc2"
+      },
+      {
+        "id": "c4b2f406-2387-4dda-b09a-6fe466a38862",
+        "title": "Math",
+        "link": "/api/v4/subjects/c4b2f406-2387-4dda-b09a-6fe466a38862",
+        "colour": "#EAE1EF"
+      },
+      {
+        "id": "29179024-f3c4-418e-9217-d594e67b80e3",
+        "title": "SAT Critical Reading",
+        "link": "/api/v4/subjects/29179024-f3c4-418e-9217-d594e67b80e3",
+        "colour": "#c27b8d"
+      },
+      {
+        "id": "1b3b5419-2a2d-43fe-b5b7-e944a3085711",
+        "title": "SAT Math",
+        "link": "/api/v4/subjects/1b3b5419-2a2d-43fe-b5b7-e944a3085711",
+        "colour": "#EAE1EF"
+      },
+      {
+        "id": "3f8be149-ec33-44ab-81e4-9371095e4ab3",
+        "title": "U.S. History Subject Test",
+        "link": "/api/v4/subjects/3f8be149-ec33-44ab-81e4-9371095e4ab3",
+        "colour": "#E4EFDF"
+      }
+    ],
+    "link": "/api/v4/qualifications/50708d25-af17-4c73-a3b4-89b943790be4",
+    "default_products": []
+  },
+  {
+    "id": "5f39d3df-78a9-47fa-81fb-0a765fe996fb",
+    "name": "IGCSE",
+    "country": null,
+    "subjects": [
+      {
+        "id": "7852c7e8-7472-4be9-867e-64c18b7396f2",
+        "title": "Physics",
+        "link": "/api/v4/subjects/7852c7e8-7472-4be9-867e-64c18b7396f2",
+        "colour": "#FFE1CB"
+      },
+      {
+        "id": "14c16af1-6b94-49d7-afe6-3702f683435c",
+        "title": "Biology",
+        "link": "/api/v4/subjects/14c16af1-6b94-49d7-afe6-3702f683435c",
+        "colour": "#DBFAF4"
+      },
+      {
+        "id": "89db663b-f4fa-47b4-95cb-b015c7c266e3",
+        "title": "Chemistry",
+        "link": "/api/v4/subjects/89db663b-f4fa-47b4-95cb-b015c7c266e3",
+        "colour": "#FDE2E4"
+      },
+      {
+        "id": "ef319206-aa64-41f5-ac67-17a4fb8d10f6",
+        "title": "English",
+        "link": "/api/v4/subjects/ef319206-aa64-41f5-ac67-17a4fb8d10f6",
+        "colour": "#ECF7E2"
+      },
+      {
+        "id": "0fe4c738-f43c-4a66-bd5b-fc9cf6255355",
+        "title": "Maths",
+        "link": "/api/v4/subjects/0fe4c738-f43c-4a66-bd5b-fc9cf6255355",
+        "colour": "#EAE1EF"
+      },
+      {
+        "id": "a2582b93-e50e-4e12-b8cf-d64b9e29d101",
+        "title": "German",
+        "link": "/api/v4/subjects/a2582b93-e50e-4e12-b8cf-d64b9e29d101",
+        "colour": "#F2DCDC"
+      },
+      {
+        "id": "94eb09ae-cabc-46b5-85c9-2170004ce2ef",
+        "title": "Spanish",
+        "link": "/api/v4/subjects/94eb09ae-cabc-46b5-85c9-2170004ce2ef",
+        "colour": "#FFF8CD"
+      },
+      {
+        "id": "cf7e2325-3d68-4472-96f0-3a0ccc670f9b",
+        "title": "Geography",
+        "link": "/api/v4/subjects/cf7e2325-3d68-4472-96f0-3a0ccc670f9b",
+        "colour": "#E6F7FE"
+      },
+      {
+        "id": "1d98b265-bf62-44f6-865c-e6655ba1b660",
+        "title": "Business",
+        "link": "/api/v4/subjects/1d98b265-bf62-44f6-865c-e6655ba1b660",
+        "colour": "#FAE8DC"
+      }
+    ],
+    "link": "/api/v4/qualifications/5f39d3df-78a9-47fa-81fb-0a765fe996fb",
+    "default_products": []
+  },
+  {
+    "id": "622ef6be-bd9c-4c9d-aa66-05e4cf9f17e6",
+    "name": "AP",
+    "country": {
+      "code": "US",
+      "name": "United States",
+      "created_at": "2014-04-12T10:06:33.000Z",
+      "updated_at": "2014-04-12T10:06:33.000Z",
+      "link": "/api/v4/countries/US"
+    },
+    "subjects": [
+      {
+        "id": "c7f8a16b-7e2a-48eb-80d8-b4ab9b4d72c1",
+        "title": "Calculus",
+        "link": "/api/v4/subjects/c7f8a16b-7e2a-48eb-80d8-b4ab9b4d72c1",
+        "colour": "#EAE1EF"
+      },
+      {
+        "id": "f1a581ff-4c1a-4bbc-8fc6-533cd25d48d4",
+        "title": "English Literature",
+        "link": "/api/v4/subjects/f1a581ff-4c1a-4bbc-8fc6-533cd25d48d4",
+        "colour": "#ECF7E2"
+      },
+      {
+        "id": "36f781ed-8f93-44b5-8e08-fdbe82ad3003",
+        "title": "English Language",
+        "link": "/api/v4/subjects/36f781ed-8f93-44b5-8e08-fdbe82ad3003",
+        "colour": "#ECF7E2"
+      },
+      {
+        "id": "89db663b-f4fa-47b4-95cb-b015c7c266e3",
+        "title": "Chemistry",
+        "link": "/api/v4/subjects/89db663b-f4fa-47b4-95cb-b015c7c266e3",
+        "colour": "#FDE2E4"
+      },
+      {
+        "id": "34bb3b09-7870-4f9c-a6df-e78d03fd71b5",
+        "title": "Environmental Science",
+        "link": "/api/v4/subjects/34bb3b09-7870-4f9c-a6df-e78d03fd71b5",
+        "colour": "#DFDFDF"
+      },
+      {
+        "id": "d5e3a1a4-5cec-4463-b473-f61afa585afb",
+        "title": "European History",
+        "link": "/api/v4/subjects/d5e3a1a4-5cec-4463-b473-f61afa585afb",
+        "colour": "#E4EFDF"
+      },
+      {
+        "id": "7852c7e8-7472-4be9-867e-64c18b7396f2",
+        "title": "Physics",
+        "link": "/api/v4/subjects/7852c7e8-7472-4be9-867e-64c18b7396f2",
+        "colour": "#FFE1CB"
+      },
+      {
+        "id": "cfcc1e15-dff3-405f-811d-cc78453552ea",
+        "title": "Human Geography",
+        "link": "/api/v4/subjects/cfcc1e15-dff3-405f-811d-cc78453552ea",
+        "colour": "#E6F7FE"
+      },
+      {
+        "id": "c257660a-ac4f-4d4b-8a84-d3a33ce46edd",
+        "title": "Statistics",
+        "link": "/api/v4/subjects/c257660a-ac4f-4d4b-8a84-d3a33ce46edd",
+        "colour": "#EAE1EF"
+      },
+      {
+        "id": "172a14ee-d325-444e-91a9-b101cfb8c5aa",
+        "title": "Psychology",
+        "link": "/api/v4/subjects/172a14ee-d325-444e-91a9-b101cfb8c5aa",
+        "colour": "#F1F1F1"
+      },
+      {
+        "id": "6b309412-e3f1-417c-9715-e94e18b69b3d",
+        "title": "U.S. Government and Politics",
+        "link": "/api/v4/subjects/6b309412-e3f1-417c-9715-e94e18b69b3d",
+        "colour": "#E3EEFF"
+      },
+      {
+        "id": "bda5f4a7-070d-435d-8948-a4327fe445bf",
+        "title": "U.S. History",
+        "link": "/api/v4/subjects/bda5f4a7-070d-435d-8948-a4327fe445bf",
+        "colour": "#E4EFDF"
+      },
+      {
+        "id": "98ca07f7-45c2-4a1c-b6ee-9f737a09ab8b",
+        "title": "World History",
+        "link": "/api/v4/subjects/98ca07f7-45c2-4a1c-b6ee-9f737a09ab8b",
+        "colour": "#E4EFDF"
+      }
+    ],
+    "link": "/api/v4/qualifications/622ef6be-bd9c-4c9d-aa66-05e4cf9f17e6",
+    "default_products": []
+  },
+  {
+    "id": "6bc8baba-c03c-4889-a360-4fb4a8fc3c43",
+    "name": "中考",
+    "country": {
+      "code": "CN",
+      "name": "China",
+      "created_at": "2014-04-12T10:06:30.000Z",
+      "updated_at": "2014-04-12T10:06:30.000Z",
+      "link": "/api/v4/countries/CN"
+    },
+    "subjects": [
+      {
+        "id": "5a0b5506-a801-48fb-8e66-2f60071c7026",
+        "title": "数学",
+        "link": "/api/v4/subjects/5a0b5506-a801-48fb-8e66-2f60071c7026",
+        "colour": ""
+      },
+      {
+        "id": "ef319206-aa64-41f5-ac67-17a4fb8d10f6",
+        "title": "English",
+        "link": "/api/v4/subjects/ef319206-aa64-41f5-ac67-17a4fb8d10f6",
+        "colour": "#ECF7E2"
+      }
+    ],
+    "link": "/api/v4/qualifications/6bc8baba-c03c-4889-a360-4fb4a8fc3c43",
+    "default_products": []
+  },
+  {
+    "id": "7d1a9e95-c1bf-4b94-9000-77b42a40cec4",
+    "name": "GCSE",
+    "country": {
+      "code": "GB",
+      "name": "United Kingdom",
+      "created_at": "2014-04-12T10:06:33.000Z",
+      "updated_at": "2014-04-12T10:06:33.000Z",
+      "link": "/api/v4/countries/GB"
+    },
+    "subjects": [
+      {
+        "id": "7852c7e8-7472-4be9-867e-64c18b7396f2",
+        "title": "Physics",
+        "link": "/api/v4/subjects/7852c7e8-7472-4be9-867e-64c18b7396f2",
+        "colour": "#FFE1CB"
+      },
+      {
+        "id": "1d98b265-bf62-44f6-865c-e6655ba1b660",
+        "title": "Business",
+        "link": "/api/v4/subjects/1d98b265-bf62-44f6-865c-e6655ba1b660",
+        "colour": "#FAE8DC"
+      },
+      {
+        "id": "14c16af1-6b94-49d7-afe6-3702f683435c",
+        "title": "Biology",
+        "link": "/api/v4/subjects/14c16af1-6b94-49d7-afe6-3702f683435c",
+        "colour": "#DBFAF4"
+      },
+      {
+        "id": "89db663b-f4fa-47b4-95cb-b015c7c266e3",
+        "title": "Chemistry",
+        "link": "/api/v4/subjects/89db663b-f4fa-47b4-95cb-b015c7c266e3",
+        "colour": "#FDE2E4"
+      },
+      {
+        "id": "4f13f1bc-87a4-45e2-8e1b-deca2d45e329",
+        "title": "Design and Technology",
+        "link": "/api/v4/subjects/4f13f1bc-87a4-45e2-8e1b-deca2d45e329",
+        "colour": "#F2ECE7"
+      },
+      {
+        "id": "ef319206-aa64-41f5-ac67-17a4fb8d10f6",
+        "title": "English",
+        "link": "/api/v4/subjects/ef319206-aa64-41f5-ac67-17a4fb8d10f6",
+        "colour": "#ECF7E2"
+      },
+      {
+        "id": "bae98002-f1a1-4d6f-b156-1e2db439079b",
+        "title": "French",
+        "link": "/api/v4/subjects/bae98002-f1a1-4d6f-b156-1e2db439079b",
+        "colour": "#E3EEFF"
+      },
+      {
+        "id": "cf7e2325-3d68-4472-96f0-3a0ccc670f9b",
+        "title": "Geography",
+        "link": "/api/v4/subjects/cf7e2325-3d68-4472-96f0-3a0ccc670f9b",
+        "colour": "#E6F7FE"
+      },
+      {
+        "id": "4f0f2212-c36b-4d1d-b198-e881e2256e18",
+        "title": "History",
+        "link": "/api/v4/subjects/4f0f2212-c36b-4d1d-b198-e881e2256e18",
+        "colour": "#E4EFDF"
+      },
+      {
+        "id": "79ab192a-9cd7-4d07-859b-6e8f4668ddfa",
+        "title": "Latin",
+        "link": "/api/v4/subjects/79ab192a-9cd7-4d07-859b-6e8f4668ddfa",
+        "colour": "#F1F1F1"
+      },
+      {
+        "id": "0fe4c738-f43c-4a66-bd5b-fc9cf6255355",
+        "title": "Maths",
+        "link": "/api/v4/subjects/0fe4c738-f43c-4a66-bd5b-fc9cf6255355",
+        "colour": "#EAE1EF"
+      },
+      {
+        "id": "aae23110-6006-47e6-8b87-977d856e9378",
+        "title": "Physical Education",
+        "link": "/api/v4/subjects/aae23110-6006-47e6-8b87-977d856e9378",
+        "colour": "#E5DCF2"
+      },
+      {
+        "id": "172a14ee-d325-444e-91a9-b101cfb8c5aa",
+        "title": "Psychology",
+        "link": "/api/v4/subjects/172a14ee-d325-444e-91a9-b101cfb8c5aa",
+        "colour": "#F1F1F1"
+      },
+      {
+        "id": "5f0b46ba-f5ea-4eaa-8e62-a136a79c38df",
+        "title": "Science",
+        "link": "/api/v4/subjects/5f0b46ba-f5ea-4eaa-8e62-a136a79c38df",
+        "colour": "#DFDFDF"
+      },
+      {
+        "id": "94eb09ae-cabc-46b5-85c9-2170004ce2ef",
+        "title": "Spanish",
+        "link": "/api/v4/subjects/94eb09ae-cabc-46b5-85c9-2170004ce2ef",
+        "colour": "#FFF8CD"
+      },
+      {
+        "id": "314d367c-13d5-4a85-9b7a-fead988ab93e",
+        "title": "Religious Studies",
+        "link": "/api/v4/subjects/314d367c-13d5-4a85-9b7a-fead988ab93e",
+        "colour": "#FFE8E9"
+      },
+      {
+        "id": "91a1b8dc-1021-4ddd-a498-8d4a3f2dadf6",
+        "title": "Music",
+        "link": "/api/v4/subjects/91a1b8dc-1021-4ddd-a498-8d4a3f2dadf6",
+        "colour": null
+      },
+      {
+        "id": "a2582b93-e50e-4e12-b8cf-d64b9e29d101",
+        "title": "German",
+        "link": "/api/v4/subjects/a2582b93-e50e-4e12-b8cf-d64b9e29d101",
+        "colour": "#F2DCDC"
+      },
+      {
+        "id": "8709c182-35ab-42a3-a1ea-9ad058597ebf",
+        "title": "Computer Science",
+        "link": "/api/v4/subjects/8709c182-35ab-42a3-a1ea-9ad058597ebf",
+        "colour": ""
+      },
+      {
+        "id": "ef539b02-889a-4469-b947-3a919085589d",
+        "title": "Health and Social Care",
+        "link": "/api/v4/subjects/ef539b02-889a-4469-b947-3a919085589d",
+        "colour": null
+      },
+      {
+        "id": "e25ec7d1-8162-4623-95c8-e382fe3741cb",
+        "title": "Citizenship",
+        "link": "/api/v4/subjects/e25ec7d1-8162-4623-95c8-e382fe3741cb",
+        "colour": ""
+      },
+      {
+        "id": "34e4103e-52ae-42e7-8ee8-17b5361be678",
+        "title": "Drama",
+        "link": "/api/v4/subjects/34e4103e-52ae-42e7-8ee8-17b5361be678",
+        "colour": null
+      },
+      {
+        "id": "f1d22add-e7bc-4905-9150-aea04c0ad820",
+        "title": "Child Development",
+        "link": "/api/v4/subjects/f1d22add-e7bc-4905-9150-aea04c0ad820",
+        "colour": null
+      },
+      {
+        "id": "9751073f-64bd-4ded-8841-c5b3be692afd",
+        "title": "Art",
+        "link": "/api/v4/subjects/9751073f-64bd-4ded-8841-c5b3be692afd",
+        "colour": null
+      },
+      {
+        "id": "9c558d0c-f022-424a-b4eb-e8c58991b839",
+        "title": "Catering",
+        "link": "/api/v4/subjects/9c558d0c-f022-424a-b4eb-e8c58991b839",
+        "colour": null
+      },
+      {
+        "id": "9af87aa0-3c08-4ce5-ad39-649081be0159",
+        "title": "History (Ancient)",
+        "link": "/api/v4/subjects/9af87aa0-3c08-4ce5-ad39-649081be0159",
+        "colour": ""
+      },
+      {
+        "id": "58dd0349-15b8-46e4-9747-e652faf13183",
+        "title": "Home Economics",
+        "link": "/api/v4/subjects/58dd0349-15b8-46e4-9747-e652faf13183",
+        "colour": ""
+      },
+      {
+        "id": "17b5e7e5-06df-46ab-bb51-6aa3900fcaaf",
+        "title": "Queen Elizabeth II",
+        "link": "/api/v4/subjects/17b5e7e5-06df-46ab-bb51-6aa3900fcaaf",
+        "colour": ""
+      },
+      {
+        "id": "bf0340d7-9de7-4725-b197-4fcf693a75ee",
+        "title": "Sociology",
+        "link": "/api/v4/subjects/bf0340d7-9de7-4725-b197-4fcf693a75ee",
+        "colour": "#FFECCD"
+      },
+      {
+        "id": "d956faed-63bd-45c2-9b57-1f7c9995e6f0",
+        "title": "Welsh",
+        "link": "/api/v4/subjects/d956faed-63bd-45c2-9b57-1f7c9995e6f0",
+        "colour": ""
+      },
+      {
+        "id": "f1a581ff-4c1a-4bbc-8fc6-533cd25d48d4",
+        "title": "English Literature",
+        "link": "/api/v4/subjects/f1a581ff-4c1a-4bbc-8fc6-533cd25d48d4",
+        "colour": "#ECF7E2"
+      },
+      {
+        "id": "c2c1ac07-df9f-4959-93ce-c9059c59e9ec",
+        "title": "Computing",
+        "link": "/api/v4/subjects/c2c1ac07-df9f-4959-93ce-c9059c59e9ec",
+        "colour": null
+      }
+    ],
+    "link": "/api/v4/qualifications/7d1a9e95-c1bf-4b94-9000-77b42a40cec4",
+    "default_products": []
+  },
+  {
+    "id": "8180e1c8-35f9-4db4-85bd-37965576758d",
+    "name": "Evolve Reach (HESI) A2",
+    "country": {
+      "code": "US",
+      "name": "United States",
+      "created_at": "2014-04-12T10:06:33.000Z",
+      "updated_at": "2014-04-12T10:06:33.000Z",
+      "link": "/api/v4/countries/US"
+    },
+    "subjects": [],
+    "link": "/api/v4/qualifications/8180e1c8-35f9-4db4-85bd-37965576758d",
+    "default_products": []
+  },
+  {
+    "id": "86668504-4239-4776-b8b8-6accf858d004",
+    "name": "13+ Common Entrance",
+    "country": {
+      "code": "GB",
+      "name": "United Kingdom",
+      "created_at": "2014-04-12T10:06:33.000Z",
+      "updated_at": "2014-04-12T10:06:33.000Z",
+      "link": "/api/v4/countries/GB"
+    },
+    "subjects": [
+      {
+        "id": "ef319206-aa64-41f5-ac67-17a4fb8d10f6",
+        "title": "English",
+        "link": "/api/v4/subjects/ef319206-aa64-41f5-ac67-17a4fb8d10f6",
+        "colour": "#ECF7E2"
+      },
+      {
+        "id": "cf7e2325-3d68-4472-96f0-3a0ccc670f9b",
+        "title": "Geography",
+        "link": "/api/v4/subjects/cf7e2325-3d68-4472-96f0-3a0ccc670f9b",
+        "colour": "#E6F7FE"
+      },
+      {
+        "id": "4f0f2212-c36b-4d1d-b198-e881e2256e18",
+        "title": "History",
+        "link": "/api/v4/subjects/4f0f2212-c36b-4d1d-b198-e881e2256e18",
+        "colour": "#E4EFDF"
+      },
+      {
+        "id": "0fe4c738-f43c-4a66-bd5b-fc9cf6255355",
+        "title": "Maths",
+        "link": "/api/v4/subjects/0fe4c738-f43c-4a66-bd5b-fc9cf6255355",
+        "colour": "#EAE1EF"
+      },
+      {
+        "id": "314d367c-13d5-4a85-9b7a-fead988ab93e",
+        "title": "Religious Studies",
+        "link": "/api/v4/subjects/314d367c-13d5-4a85-9b7a-fead988ab93e",
+        "colour": "#FFE8E9"
+      },
+      {
+        "id": "5f0b46ba-f5ea-4eaa-8e62-a136a79c38df",
+        "title": "Science",
+        "link": "/api/v4/subjects/5f0b46ba-f5ea-4eaa-8e62-a136a79c38df",
+        "colour": "#DFDFDF"
+      }
+    ],
+    "link": "/api/v4/qualifications/86668504-4239-4776-b8b8-6accf858d004",
+    "default_products": []
+  },
+  {
+    "id": "891ae0b3-0b4b-42fd-9c19-da35fcaa9925",
+    "name": "SHSAT",
+    "country": {
+      "code": "US",
+      "name": "United States",
+      "created_at": "2014-04-12T10:06:33.000Z",
+      "updated_at": "2014-04-12T10:06:33.000Z",
+      "link": "/api/v4/countries/US"
+    },
+    "subjects": [],
+    "link": "/api/v4/qualifications/891ae0b3-0b4b-42fd-9c19-da35fcaa9925",
+    "default_products": [
+      {
+        "id": "6ff0dde1-9ba3-47bf-9cc6-0d42e2cc0392",
+        "title": "McGraw Hill's New York City SHSAT Sample",
+        "link": "/api/v4/products/6ff0dde1-9ba3-47bf-9cc6-0d42e2cc0392",
+        "ios_iap_id": "",
+        "store_ids": [],
+        "type": "question_pack",
+        "assets": [
+          {
+            "id": "8f019465-fefd-4656-8aab-ebc56ef86233",
+            "copyright": null,
+            "meta": null,
+            "size": 1347878,
+            "content_type": "",
+            "created_at": "2015-07-01T09:15:15.000Z",
+            "updated_at": "2015-07-01T09:15:15.000Z",
+            "path": "https://gojimo.s3.amazonaws.com/production/assets/8f019465-fefd-4656-8aab-ebc56ef86233/RackMultipart20150514-1252-2tlp0d",
+            "unzipped_base_url": "https://gojimo.s3.amazonaws.com/production/assets/8f019465-fefd-4656-8aab-ebc56ef86233/unzipped",
+            "info": [
+              {
+                "meta": "\"allAssets\": \"true\""
+              }
+            ],
+            "link": "/api/v4/assets/8f019465-fefd-4656-8aab-ebc56ef86233"
+          },
+          {
+            "id": "97b4c568-3c7e-4e53-8153-bbb342474edd",
+            "copyright": null,
+            "meta": null,
+            "size": 1347878,
+            "content_type": "",
+            "created_at": "2015-07-01T09:15:15.000Z",
+            "updated_at": "2015-07-01T09:15:15.000Z",
+            "path": "https://gojimo.s3.amazonaws.com/production/assets/97b4c568-3c7e-4e53-8153-bbb342474edd/RackMultipart20150514-1252-2tlp0d",
+            "unzipped_base_url": null,
+            "info": [
+              {
+                "meta": "\"coverImage@2x\": \"true\""
+              }
+            ],
+            "link": "/api/v4/assets/97b4c568-3c7e-4e53-8153-bbb342474edd"
+          },
+          {
+            "id": "6303a767-efcc-4a16-80a9-110aa4d8f8dc",
+            "copyright": null,
+            "meta": null,
+            "size": null,
+            "content_type": null,
+            "created_at": "2015-07-01T09:15:16.000Z",
+            "updated_at": "2015-07-01T09:15:16.000Z",
+            "path": null,
+            "unzipped_base_url": null,
+            "info": [],
+            "link": "/api/v4/assets/6303a767-efcc-4a16-80a9-110aa4d8f8dc"
+          },
+          {
+            "id": "b49dc113-607d-4212-8b6d-7edf3074d2f1",
+            "copyright": null,
+            "meta": null,
+            "size": null,
+            "content_type": null,
+            "created_at": "2015-07-01T09:15:16.000Z",
+            "updated_at": "2015-07-01T09:15:16.000Z",
+            "path": null,
+            "unzipped_base_url": null,
+            "info": [],
+            "link": "/api/v4/assets/b49dc113-607d-4212-8b6d-7edf3074d2f1"
+          },
+          {
+            "id": "71305835-c4d7-41e9-a5cc-e962312a9c9c",
+            "copyright": null,
+            "meta": null,
+            "size": 1347878,
+            "content_type": "",
+            "created_at": "2015-07-01T09:15:16.000Z",
+            "updated_at": "2015-07-01T09:15:16.000Z",
+            "path": "https://gojimo.s3.amazonaws.com/production/assets/71305835-c4d7-41e9-a5cc-e962312a9c9c/RackMultipart20150514-1252-2tlp0d",
+            "unzipped_base_url": null,
+            "info": [
+              {
+                "meta": "\"coverImage\": \"true\""
+              }
+            ],
+            "link": "/api/v4/assets/71305835-c4d7-41e9-a5cc-e962312a9c9c"
+          },
+          {
+            "id": "339fc773-51e9-40b7-8ae1-e4ba44e89315",
+            "copyright": null,
+            "meta": "coverImage",
+            "size": 1408710,
+            "content_type": "image/jpeg",
+            "created_at": "2015-07-01T09:17:37.000Z",
+            "updated_at": "2015-07-07T12:07:00.000Z",
+            "path": "https://gojimo.s3.amazonaws.com/production/assets/339fc773-51e9-40b7-8ae1-e4ba44e89315/9780071772815_FC.jpg",
+            "unzipped_base_url": null,
+            "info": [],
+            "link": "/api/v4/assets/339fc773-51e9-40b7-8ae1-e4ba44e89315"
+          },
+          {
+            "id": "a669cee2-a704-4f23-b424-77d7e81a481a",
+            "copyright": null,
+            "meta": "coverImage@2x",
+            "size": 1408710,
+            "content_type": "image/jpeg",
+            "created_at": "2015-07-01T09:17:37.000Z",
+            "updated_at": "2015-07-07T12:07:00.000Z",
+            "path": "https://gojimo.s3.amazonaws.com/production/assets/a669cee2-a704-4f23-b424-77d7e81a481a/9780071772815_FC.jpg",
+            "unzipped_base_url": null,
+            "info": [],
+            "link": "/api/v4/assets/a669cee2-a704-4f23-b424-77d7e81a481a"
+          }
+        ],
+        "publisher": {
+          "id": "c43bc699-64f3-4d7e-8485-9b78b5366379",
+          "title": "McGraw-Hill Education",
+          "link": "/api/v4/publishers/c43bc699-64f3-4d7e-8485-9b78b5366379"
+        },
+        "author": "Cynthia Johnson"
+      }
+    ]
+  },
+  {
+    "id": "8b281037-4f13-4630-9b0d-51b5d97ac1e4",
+    "name": "CBEST",
+    "country": {
+      "code": "US",
+      "name": "United States",
+      "created_at": "2014-04-12T10:06:33.000Z",
+      "updated_at": "2014-04-12T10:06:33.000Z",
+      "link": "/api/v4/countries/US"
+    },
+    "subjects": [],
+    "link": "/api/v4/qualifications/8b281037-4f13-4630-9b0d-51b5d97ac1e4",
+    "default_products": [
+      {
+        "id": "1af72a98-e83c-44f0-9fdb-11b0b86cae10",
+        "title": "McGraw-Hill’s CBEST Sample",
+        "link": "/api/v4/products/1af72a98-e83c-44f0-9fdb-11b0b86cae10",
+        "ios_iap_id": "",
+        "store_ids": [],
+        "type": "question_pack",
+        "assets": [
+          {
+            "id": "febebc5d-786d-4e3a-bdc7-1780a5e61aee",
+            "copyright": null,
+            "meta": null,
+            "size": 825792,
+            "content_type": "",
+            "created_at": "2015-07-01T08:50:00.000Z",
+            "updated_at": "2015-07-01T08:50:00.000Z",
+            "path": "https://gojimo.s3.amazonaws.com/production/assets/febebc5d-786d-4e3a-bdc7-1780a5e61aee/RackMultipart20141027-27282-1uvjnjn",
+            "unzipped_base_url": "https://gojimo.s3.amazonaws.com/production/assets/febebc5d-786d-4e3a-bdc7-1780a5e61aee/unzipped",
+            "info": [
+              {
+                "meta": "\"allAssets\": \"true\""
+              }
+            ],
+            "link": "/api/v4/assets/febebc5d-786d-4e3a-bdc7-1780a5e61aee"
+          },
+          {
+            "id": "428e013b-2d8d-4afa-9381-e5ce7135e652",
+            "copyright": null,
+            "meta": null,
+            "size": 825792,
+            "content_type": "",
+            "created_at": "2015-07-01T08:50:01.000Z",
+            "updated_at": "2015-07-01T08:50:01.000Z",
+            "path": "https://gojimo.s3.amazonaws.com/production/assets/428e013b-2d8d-4afa-9381-e5ce7135e652/RackMultipart20141027-27282-1uvjnjn",
+            "unzipped_base_url": null,
+            "info": [
+              {
+                "meta": "\"coverImage@2x\": \"true\""
+              }
+            ],
+            "link": "/api/v4/assets/428e013b-2d8d-4afa-9381-e5ce7135e652"
+          },
+          {
+            "id": "72c04987-5aca-4eb6-a31d-b006343df5ad",
+            "copyright": null,
+            "meta": null,
+            "size": 109665,
+            "content_type": "image/png",
+            "created_at": "2015-07-01T08:50:02.000Z",
+            "updated_at": "2015-07-01T08:50:02.000Z",
+            "path": "https://gojimo.s3.amazonaws.com/production/assets/72c04987-5aca-4eb6-a31d-b006343df5ad/cover_2x.png",
+            "unzipped_base_url": null,
+            "info": [],
+            "link": "/api/v4/assets/72c04987-5aca-4eb6-a31d-b006343df5ad"
+          },
+          {
+            "id": "0c4865e7-cb92-4134-ad59-ee9c2fde6a3b",
+            "copyright": null,
+            "meta": null,
+            "size": 35179,
+            "content_type": "image/png",
+            "created_at": "2015-07-01T08:50:02.000Z",
+            "updated_at": "2015-07-01T08:50:02.000Z",
+            "path": "https://gojimo.s3.amazonaws.com/production/assets/0c4865e7-cb92-4134-ad59-ee9c2fde6a3b/cover.png",
+            "unzipped_base_url": null,
+            "info": [],
+            "link": "/api/v4/assets/0c4865e7-cb92-4134-ad59-ee9c2fde6a3b"
+          },
+          {
+            "id": "cefba875-cf7a-4ea8-bdac-7cbcb287974c",
+            "copyright": null,
+            "meta": null,
+            "size": 825792,
+            "content_type": "",
+            "created_at": "2015-07-01T08:50:02.000Z",
+            "updated_at": "2015-07-01T08:50:02.000Z",
+            "path": "https://gojimo.s3.amazonaws.com/production/assets/cefba875-cf7a-4ea8-bdac-7cbcb287974c/RackMultipart20141027-27282-1uvjnjn",
+            "unzipped_base_url": null,
+            "info": [
+              {
+                "meta": "\"coverImage\": \"true\""
+              }
+            ],
+            "link": "/api/v4/assets/cefba875-cf7a-4ea8-bdac-7cbcb287974c"
+          },
+          {
+            "id": "e4557723-3fd5-4f13-b674-14f7794fa1a5",
+            "copyright": null,
+            "meta": "coverImage",
+            "size": 287345,
+            "content_type": "image/jpeg",
+            "created_at": "2015-07-01T08:53:58.000Z",
+            "updated_at": "2015-07-07T12:00:22.000Z",
+            "path": "https://gojimo.s3.amazonaws.com/production/assets/e4557723-3fd5-4f13-b674-14f7794fa1a5/9780071718035_FC.jpg",
+            "unzipped_base_url": null,
+            "info": [],
+            "link": "/api/v4/assets/e4557723-3fd5-4f13-b674-14f7794fa1a5"
+          },
+          {
+            "id": "b14fd6a5-88e2-4ac4-9994-2ecef497dd3b",
+            "copyright": null,
+            "meta": "coverImage@2x",
+            "size": 287345,
+            "content_type": "image/jpeg",
+            "created_at": "2015-07-01T08:53:58.000Z",
+            "updated_at": "2015-07-07T12:00:22.000Z",
+            "path": "https://gojimo.s3.amazonaws.com/production/assets/b14fd6a5-88e2-4ac4-9994-2ecef497dd3b/9780071718035_FC.jpg",
+            "unzipped_base_url": null,
+            "info": [],
+            "link": "/api/v4/assets/b14fd6a5-88e2-4ac4-9994-2ecef497dd3b"
+          }
+        ],
+        "publisher": {
+          "id": "c43bc699-64f3-4d7e-8485-9b78b5366379",
+          "title": "McGraw-Hill Education",
+          "link": "/api/v4/publishers/c43bc699-64f3-4d7e-8485-9b78b5366379"
+        },
+        "author": "McGraw-Hill Education"
+      }
+    ]
+  },
+  {
+    "id": "9531a8b0-76de-4f06-ac11-e701731d5631",
+    "name": "ACT",
+    "country": {
+      "code": "US",
+      "name": "United States",
+      "created_at": "2014-04-12T10:06:33.000Z",
+      "updated_at": "2014-04-12T10:06:33.000Z",
+      "link": "/api/v4/countries/US"
+    },
+    "subjects": [
+      {
+        "id": "a5f99685-15a0-4a74-82b5-6f15496d8934",
+        "title": "Practice Tests",
+        "link": "/api/v4/subjects/a5f99685-15a0-4a74-82b5-6f15496d8934",
+        "colour": "#7b8dc2"
+      },
+      {
+        "id": "c4b2f406-2387-4dda-b09a-6fe466a38862",
+        "title": "Math",
+        "link": "/api/v4/subjects/c4b2f406-2387-4dda-b09a-6fe466a38862",
+        "colour": "#EAE1EF"
+      },
+      {
+        "id": "ef319206-aa64-41f5-ac67-17a4fb8d10f6",
+        "title": "English",
+        "link": "/api/v4/subjects/ef319206-aa64-41f5-ac67-17a4fb8d10f6",
+        "colour": "#ECF7E2"
+      },
+      {
+        "id": "bdc2ee7b-fc46-409d-8cd5-3d6fc0581e92",
+        "title": "ACT English and Reading",
+        "link": "/api/v4/subjects/bdc2ee7b-fc46-409d-8cd5-3d6fc0581e92",
+        "colour": "#ECF7E2"
+      },
+      {
+        "id": "40a84cd4-a0b2-4605-8711-200892cc93a9",
+        "title": "ACT Math",
+        "link": "/api/v4/subjects/40a84cd4-a0b2-4605-8711-200892cc93a9",
+        "colour": "#EAE1EF"
+      }
+    ],
+    "link": "/api/v4/qualifications/9531a8b0-76de-4f06-ac11-e701731d5631",
+    "default_products": []
+  },
+  {
+    "id": "9bca5e6e-209c-4ec9-aa10-71bec8b98f51",
+    "name": "TEAS",
+    "country": {
+      "code": "US",
+      "name": "United States",
+      "created_at": "2014-04-12T10:06:33.000Z",
+      "updated_at": "2014-04-12T10:06:33.000Z",
+      "link": "/api/v4/countries/US"
+    },
+    "subjects": [],
+    "link": "/api/v4/qualifications/9bca5e6e-209c-4ec9-aa10-71bec8b98f51",
+    "default_products": []
+  },
+  {
+    "id": "a06b2b2a-d9ed-4f55-9f52-f53e46a740c2",
+    "name": "高考",
+    "country": {
+      "code": "CN",
+      "name": "China",
+      "created_at": "2014-04-12T10:06:30.000Z",
+      "updated_at": "2014-04-12T10:06:30.000Z",
+      "link": "/api/v4/countries/CN"
+    },
+    "subjects": [
+      {
+        "id": "ef319206-aa64-41f5-ac67-17a4fb8d10f6",
+        "title": "English",
+        "link": "/api/v4/subjects/ef319206-aa64-41f5-ac67-17a4fb8d10f6",
+        "colour": "#ECF7E2"
+      },
+      {
+        "id": "a2582b93-e50e-4e12-b8cf-d64b9e29d101",
+        "title": "German",
+        "link": "/api/v4/subjects/a2582b93-e50e-4e12-b8cf-d64b9e29d101",
+        "colour": "#F2DCDC"
+      }
+    ],
+    "link": "/api/v4/qualifications/a06b2b2a-d9ed-4f55-9f52-f53e46a740c2",
+    "default_products": []
+  },
+  {
+    "id": "b5d4caac-174e-4077-9338-43e3174fb1de",
+    "name": "SSAT ISEE",
+    "country": {
+      "code": "US",
+      "name": "United States",
+      "created_at": "2014-04-12T10:06:33.000Z",
+      "updated_at": "2014-04-12T10:06:33.000Z",
+      "link": "/api/v4/countries/US"
+    },
+    "subjects": [],
+    "link": "/api/v4/qualifications/b5d4caac-174e-4077-9338-43e3174fb1de",
+    "default_products": [
+      {
+        "id": "974eafe2-09c6-427a-a9d5-11855ee7f082",
+        "title": "McGraw-Hill’s SSAT ISEE, Third Edition Sample",
+        "link": "/api/v4/products/974eafe2-09c6-427a-a9d5-11855ee7f082",
+        "ios_iap_id": "",
+        "store_ids": [],
+        "type": "question_pack",
+        "assets": [
+          {
+            "id": "36bf5a86-6e48-4089-93a5-0287c957dda7",
+            "copyright": null,
+            "meta": null,
+            "size": 5571695,
+            "content_type": "",
+            "created_at": "2015-07-01T09:12:11.000Z",
+            "updated_at": "2015-07-01T09:12:11.000Z",
+            "path": "https://gojimo.s3.amazonaws.com/production/assets/36bf5a86-6e48-4089-93a5-0287c957dda7/RackMultipart20150630-28231-1jxxe7j",
+            "unzipped_base_url": "https://gojimo.s3.amazonaws.com/production/assets/36bf5a86-6e48-4089-93a5-0287c957dda7/unzipped",
+            "info": [
+              {
+                "meta": "\"allAssets\": \"true\""
+              }
+            ],
+            "link": "/api/v4/assets/36bf5a86-6e48-4089-93a5-0287c957dda7"
+          },
+          {
+            "id": "74fa0327-84a0-427d-8764-95a9ea9276b0",
+            "copyright": null,
+            "meta": null,
+            "size": 5571695,
+            "content_type": "",
+            "created_at": "2015-07-01T09:12:12.000Z",
+            "updated_at": "2015-07-01T09:12:12.000Z",
+            "path": "https://gojimo.s3.amazonaws.com/production/assets/74fa0327-84a0-427d-8764-95a9ea9276b0/RackMultipart20150630-28231-1jxxe7j",
+            "unzipped_base_url": null,
+            "info": [
+              {
+                "meta": "\"coverImage\": \"true\""
+              }
+            ],
+            "link": "/api/v4/assets/74fa0327-84a0-427d-8764-95a9ea9276b0"
+          },
+          {
+            "id": "92211662-4380-4c96-8343-1163fa0394a1",
+            "copyright": null,
+            "meta": null,
+            "size": null,
+            "content_type": null,
+            "created_at": "2015-07-01T09:12:15.000Z",
+            "updated_at": "2015-07-01T09:12:15.000Z",
+            "path": null,
+            "unzipped_base_url": null,
+            "info": [],
+            "link": "/api/v4/assets/92211662-4380-4c96-8343-1163fa0394a1"
+          },
+          {
+            "id": "2db2fe8b-7076-4452-bdd3-a42cad59ebef",
+            "copyright": null,
+            "meta": null,
+            "size": null,
+            "content_type": null,
+            "created_at": "2015-07-01T09:12:15.000Z",
+            "updated_at": "2015-07-01T09:12:15.000Z",
+            "path": null,
+            "unzipped_base_url": null,
+            "info": [],
+            "link": "/api/v4/assets/2db2fe8b-7076-4452-bdd3-a42cad59ebef"
+          },
+          {
+            "id": "efbcf6f9-7a78-420a-bf78-ad7b848f0e1e",
+            "copyright": null,
+            "meta": null,
+            "size": 5571695,
+            "content_type": "",
+            "created_at": "2015-07-01T09:12:14.000Z",
+            "updated_at": "2015-07-01T09:12:14.000Z",
+            "path": "https://gojimo.s3.amazonaws.com/production/assets/efbcf6f9-7a78-420a-bf78-ad7b848f0e1e/RackMultipart20150630-28231-1jxxe7j",
+            "unzipped_base_url": null,
+            "info": [
+              {
+                "meta": "\"coverImage@2x\": \"true\""
+              }
+            ],
+            "link": "/api/v4/assets/efbcf6f9-7a78-420a-bf78-ad7b848f0e1e"
+          },
+          {
+            "id": "d7acfe55-84a9-4f88-932e-b645101660fa",
+            "copyright": null,
+            "meta": "coverImage",
+            "size": 259597,
+            "content_type": "image/jpeg",
+            "created_at": "2015-07-01T09:16:55.000Z",
+            "updated_at": "2015-07-07T12:14:29.000Z",
+            "path": "https://gojimo.s3.amazonaws.com/production/assets/d7acfe55-84a9-4f88-932e-b645101660fa/9780071781152_FC.jpg",
+            "unzipped_base_url": null,
+            "info": [],
+            "link": "/api/v4/assets/d7acfe55-84a9-4f88-932e-b645101660fa"
+          },
+          {
+            "id": "544f3a4d-36f6-46b1-8fce-8c723e947a6c",
+            "copyright": null,
+            "meta": "coverImage@2x",
+            "size": 259597,
+            "content_type": "image/jpeg",
+            "created_at": "2015-07-01T09:16:55.000Z",
+            "updated_at": "2015-07-07T12:14:29.000Z",
+            "path": "https://gojimo.s3.amazonaws.com/production/assets/544f3a4d-36f6-46b1-8fce-8c723e947a6c/9780071781152_FC.jpg",
+            "unzipped_base_url": null,
+            "info": [],
+            "link": "/api/v4/assets/544f3a4d-36f6-46b1-8fce-8c723e947a6c"
+          }
+        ],
+        "publisher": {
+          "id": "c43bc699-64f3-4d7e-8485-9b78b5366379",
+          "title": "McGraw-Hill Education",
+          "link": "/api/v4/publishers/c43bc699-64f3-4d7e-8485-9b78b5366379"
+        },
+        "author": "Nicholas Falletta"
+      }
+    ]
+  },
+  {
+    "id": "b63b1a80-fa69-4178-be03-1cffbe580be9",
+    "name": "N/A",
+    "country": null,
+    "subjects": [],
+    "link": "/api/v4/qualifications/b63b1a80-fa69-4178-be03-1cffbe580be9",
+    "default_products": []
+  },
+  {
+    "id": "c53375dc-9dec-4b2f-af7b-33e9b870d83e",
+    "name": "Grade 10",
+    "country": {
+      "code": "ZA",
+      "name": "South Africa",
+      "created_at": "2014-04-12T10:06:33.000Z",
+      "updated_at": "2014-04-12T10:06:33.000Z",
+      "link": "/api/v4/countries/ZA"
+    },
+    "subjects": [],
+    "link": "/api/v4/qualifications/c53375dc-9dec-4b2f-af7b-33e9b870d83e",
+    "default_products": []
+  },
+  {
+    "id": "c79c7f37-f850-45ab-8381-d63a04fa1d27",
+    "name": "Queen Elizabeth II",
+    "country": null,
+    "subjects": [
+      {
+        "id": "17b5e7e5-06df-46ab-bb51-6aa3900fcaaf",
+        "title": "Queen Elizabeth II",
+        "link": "/api/v4/subjects/17b5e7e5-06df-46ab-bb51-6aa3900fcaaf",
+        "colour": ""
+      }
+    ],
+    "link": "/api/v4/qualifications/c79c7f37-f850-45ab-8381-d63a04fa1d27",
+    "default_products": []
+  },
+  {
+    "id": "d45945e4-b724-48ab-9f99-21e61f1648ad",
+    "name": "11+ Common Entrance",
+    "country": {
+      "code": "GB",
+      "name": "United Kingdom",
+      "created_at": "2014-04-12T10:06:33.000Z",
+      "updated_at": "2014-04-12T10:06:33.000Z",
+      "link": "/api/v4/countries/GB"
+    },
+    "subjects": [
+      {
+        "id": "ef319206-aa64-41f5-ac67-17a4fb8d10f6",
+        "title": "English",
+        "link": "/api/v4/subjects/ef319206-aa64-41f5-ac67-17a4fb8d10f6",
+        "colour": "#ECF7E2"
+      },
+      {
+        "id": "0fe4c738-f43c-4a66-bd5b-fc9cf6255355",
+        "title": "Maths",
+        "link": "/api/v4/subjects/0fe4c738-f43c-4a66-bd5b-fc9cf6255355",
+        "colour": "#EAE1EF"
+      },
+      {
+        "id": "5f0b46ba-f5ea-4eaa-8e62-a136a79c38df",
+        "title": "Science",
+        "link": "/api/v4/subjects/5f0b46ba-f5ea-4eaa-8e62-a136a79c38df",
+        "colour": "#DFDFDF"
+      }
+    ],
+    "link": "/api/v4/qualifications/d45945e4-b724-48ab-9f99-21e61f1648ad",
+    "default_products": []
+  },
+  {
+    "id": "dfe26ea6-dee4-40af-b4b7-d254c40d3a92",
+    "name": "NLN PAX-RN",
+    "country": {
+      "code": "US",
+      "name": "United States",
+      "created_at": "2014-04-12T10:06:33.000Z",
+      "updated_at": "2014-04-12T10:06:33.000Z",
+      "link": "/api/v4/countries/US"
+    },
+    "subjects": [],
+    "link": "/api/v4/qualifications/dfe26ea6-dee4-40af-b4b7-d254c40d3a92",
+    "default_products": []
+  },
+  {
+    "id": "e4f24e03-ec4d-47b5-a7d9-6a72b16d1eba",
+    "name": "IB",
+    "country": null,
+    "subjects": [
+      {
+        "id": "7852c7e8-7472-4be9-867e-64c18b7396f2",
+        "title": "Physics",
+        "link": "/api/v4/subjects/7852c7e8-7472-4be9-867e-64c18b7396f2",
+        "colour": "#FFE1CB"
+      },
+      {
+        "id": "0fe4c738-f43c-4a66-bd5b-fc9cf6255355",
+        "title": "Maths",
+        "link": "/api/v4/subjects/0fe4c738-f43c-4a66-bd5b-fc9cf6255355",
+        "colour": "#EAE1EF"
+      },
+      {
+        "id": "14c16af1-6b94-49d7-afe6-3702f683435c",
+        "title": "Biology",
+        "link": "/api/v4/subjects/14c16af1-6b94-49d7-afe6-3702f683435c",
+        "colour": "#DBFAF4"
+      },
+      {
+        "id": "542ad90b-a48c-4c5b-9da0-96561f1dbd39",
+        "title": "Economics",
+        "link": "/api/v4/subjects/542ad90b-a48c-4c5b-9da0-96561f1dbd39",
+        "colour": "#E4FFE3"
+      },
+      {
+        "id": "89db663b-f4fa-47b4-95cb-b015c7c266e3",
+        "title": "Chemistry",
+        "link": "/api/v4/subjects/89db663b-f4fa-47b4-95cb-b015c7c266e3",
+        "colour": "#FDE2E4"
+      },
+      {
+        "id": "172a14ee-d325-444e-91a9-b101cfb8c5aa",
+        "title": "Psychology",
+        "link": "/api/v4/subjects/172a14ee-d325-444e-91a9-b101cfb8c5aa",
+        "colour": "#F1F1F1"
+      }
+    ],
+    "link": "/api/v4/qualifications/e4f24e03-ec4d-47b5-a7d9-6a72b16d1eba",
+    "default_products": []
+  },
+  {
+    "id": "edf7c0c7-062c-4579-b320-d0391987ea93",
+    "name": "Scottish Highers",
+    "country": null,
+    "subjects": [
+      {
+        "id": "14c16af1-6b94-49d7-afe6-3702f683435c",
+        "title": "Biology",
+        "link": "/api/v4/subjects/14c16af1-6b94-49d7-afe6-3702f683435c",
+        "colour": "#DBFAF4"
+      },
+      {
+        "id": "89db663b-f4fa-47b4-95cb-b015c7c266e3",
+        "title": "Chemistry",
+        "link": "/api/v4/subjects/89db663b-f4fa-47b4-95cb-b015c7c266e3",
+        "colour": "#FDE2E4"
+      },
+      {
+        "id": "7852c7e8-7472-4be9-867e-64c18b7396f2",
+        "title": "Physics",
+        "link": "/api/v4/subjects/7852c7e8-7472-4be9-867e-64c18b7396f2",
+        "colour": "#FFE1CB"
+      },
+      {
+        "id": "0fe4c738-f43c-4a66-bd5b-fc9cf6255355",
+        "title": "Maths",
+        "link": "/api/v4/subjects/0fe4c738-f43c-4a66-bd5b-fc9cf6255355",
+        "colour": "#EAE1EF"
+      }
+    ],
+    "link": "/api/v4/qualifications/edf7c0c7-062c-4579-b320-d0391987ea93",
+    "default_products": []
+  },
+  {
+    "id": "ee01dc5a-2390-4598-b31f-d3057cca66c4",
+    "name": "Grade 12 Matric",
+    "country": null,
+    "subjects": [],
+    "link": "/api/v4/qualifications/ee01dc5a-2390-4598-b31f-d3057cca66c4",
+    "default_products": []
+  },
+  {
+    "id": "eebf29ce-c0a1-4c62-bd6d-9ac20eef2c05",
+    "name": "Driving Theory",
+    "country": null,
+    "subjects": [
+      {
+        "id": "e92adc6d-4976-4c5a-81b9-714d1c94a195",
+        "title": "Motorcycles  - Category A",
+        "link": "/api/v4/subjects/e92adc6d-4976-4c5a-81b9-714d1c94a195",
+        "colour": ""
+      },
+      {
+        "id": "6a0aae9d-371a-4237-9e0d-de284448b907",
+        "title": "Buses, Medium-sized, and Large Vehicles - Category C \\u0026 D",
+        "link": "/api/v4/subjects/6a0aae9d-371a-4237-9e0d-de284448b907",
+        "colour": ""
+      },
+      {
+        "id": "ab7b7cbd-b952-4c64-bb03-d21a3c7bc563",
+        "title": "Cars  - Category B",
+        "link": "/api/v4/subjects/ab7b7cbd-b952-4c64-bb03-d21a3c7bc563",
+        "colour": ""
+      }
+    ],
+    "link": "/api/v4/qualifications/eebf29ce-c0a1-4c62-bd6d-9ac20eef2c05",
+    "default_products": []
+  },
+  {
+    "id": "ef840ad5-0cd6-45f6-90fc-12b0a6e3c4c3",
+    "name": "Matriculation",
+    "country": {
+      "code": "ZA",
+      "name": "South Africa",
+      "created_at": "2014-04-12T10:06:33.000Z",
+      "updated_at": "2014-04-12T10:06:33.000Z",
+      "link": "/api/v4/countries/ZA"
+    },
+    "subjects": [
+      {
+        "id": "cb224869-17e3-4c8a-8e4f-d5376c2eb641",
+        "title": "Life Sciences",
+        "link": "/api/v4/subjects/cb224869-17e3-4c8a-8e4f-d5376c2eb641",
+        "colour": "#DAF5E2"
+      },
+      {
+        "id": "d5ab3e43-8b33-4a32-8a1b-d8fd79fb734f",
+        "title": "Physical Sciences",
+        "link": "/api/v4/subjects/d5ab3e43-8b33-4a32-8a1b-d8fd79fb734f",
+        "colour": "#F2DCE3"
+      },
+      {
+        "id": "542ad90b-a48c-4c5b-9da0-96561f1dbd39",
+        "title": "Economics",
+        "link": "/api/v4/subjects/542ad90b-a48c-4c5b-9da0-96561f1dbd39",
+        "colour": "#E4FFE3"
+      },
+      {
+        "id": "0fe4c738-f43c-4a66-bd5b-fc9cf6255355",
+        "title": "Maths",
+        "link": "/api/v4/subjects/0fe4c738-f43c-4a66-bd5b-fc9cf6255355",
+        "colour": "#EAE1EF"
+      },
+      {
+        "id": "1b40817d-145f-4375-bf83-98e1fb665108",
+        "title": "Afrikaans",
+        "link": "/api/v4/subjects/1b40817d-145f-4375-bf83-98e1fb665108",
+        "colour": null
+      },
+      {
+        "id": "cf7e2325-3d68-4472-96f0-3a0ccc670f9b",
+        "title": "Geography",
+        "link": "/api/v4/subjects/cf7e2325-3d68-4472-96f0-3a0ccc670f9b",
+        "colour": "#E6F7FE"
+      },
+      {
+        "id": "ef319206-aa64-41f5-ac67-17a4fb8d10f6",
+        "title": "English",
+        "link": "/api/v4/subjects/ef319206-aa64-41f5-ac67-17a4fb8d10f6",
+        "colour": "#ECF7E2"
+      }
+    ],
+    "link": "/api/v4/qualifications/ef840ad5-0cd6-45f6-90fc-12b0a6e3c4c3",
+    "default_products": []
+  },
+  {
+    "id": "efc3bd97-1dfa-4221-9bd4-bae0f3866dc2",
+    "name": "Matric",
+    "country": null,
+    "subjects": [],
+    "link": "/api/v4/qualifications/efc3bd97-1dfa-4221-9bd4-bae0f3866dc2",
+    "default_products": []
+  },
+  {
+    "id": "f1c26b7d-baf9-4d94-8ddc-3ef7a9f1e622",
+    "name": "Grade 11",
+    "country": {
+      "code": "ZA",
+      "name": "South Africa",
+      "created_at": "2014-04-12T10:06:33.000Z",
+      "updated_at": "2014-04-12T10:06:33.000Z",
+      "link": "/api/v4/countries/ZA"
+    },
+    "subjects": [],
+    "link": "/api/v4/qualifications/f1c26b7d-baf9-4d94-8ddc-3ef7a9f1e622",
+    "default_products": []
+  },
+  {
+    "id": "f4f52fe7-d209-4c9e-b7ad-364c76af5c48",
+    "name": "A Level",
+    "country": {
+      "code": "GB",
+      "name": "United Kingdom",
+      "created_at": "2014-04-12T10:06:33.000Z",
+      "updated_at": "2014-04-12T10:06:33.000Z",
+      "link": "/api/v4/countries/GB"
+    },
+    "subjects": [
+      {
+        "id": "14c16af1-6b94-49d7-afe6-3702f683435c",
+        "title": "Biology",
+        "link": "/api/v4/subjects/14c16af1-6b94-49d7-afe6-3702f683435c",
+        "colour": "#DBFAF4"
+      },
+      {
+        "id": "4f0f2212-c36b-4d1d-b198-e881e2256e18",
+        "title": "History",
+        "link": "/api/v4/subjects/4f0f2212-c36b-4d1d-b198-e881e2256e18",
+        "colour": "#E4EFDF"
+      },
+      {
+        "id": "542ad90b-a48c-4c5b-9da0-96561f1dbd39",
+        "title": "Economics",
+        "link": "/api/v4/subjects/542ad90b-a48c-4c5b-9da0-96561f1dbd39",
+        "colour": "#E4FFE3"
+      },
+      {
+        "id": "0fe4c738-f43c-4a66-bd5b-fc9cf6255355",
+        "title": "Maths",
+        "link": "/api/v4/subjects/0fe4c738-f43c-4a66-bd5b-fc9cf6255355",
+        "colour": "#EAE1EF"
+      },
+      {
+        "id": "7852c7e8-7472-4be9-867e-64c18b7396f2",
+        "title": "Physics",
+        "link": "/api/v4/subjects/7852c7e8-7472-4be9-867e-64c18b7396f2",
+        "colour": "#FFE1CB"
+      },
+      {
+        "id": "172a14ee-d325-444e-91a9-b101cfb8c5aa",
+        "title": "Psychology",
+        "link": "/api/v4/subjects/172a14ee-d325-444e-91a9-b101cfb8c5aa",
+        "colour": "#F1F1F1"
+      },
+      {
+        "id": "bf0340d7-9de7-4725-b197-4fcf693a75ee",
+        "title": "Sociology",
+        "link": "/api/v4/subjects/bf0340d7-9de7-4725-b197-4fcf693a75ee",
+        "colour": "#FFECCD"
+      },
+      {
+        "id": "cf7e2325-3d68-4472-96f0-3a0ccc670f9b",
+        "title": "Geography",
+        "link": "/api/v4/subjects/cf7e2325-3d68-4472-96f0-3a0ccc670f9b",
+        "colour": "#E6F7FE"
+      },
+      {
+        "id": "89db663b-f4fa-47b4-95cb-b015c7c266e3",
+        "title": "Chemistry",
+        "link": "/api/v4/subjects/89db663b-f4fa-47b4-95cb-b015c7c266e3",
+        "colour": "#FDE2E4"
+      },
+      {
+        "id": "a2582b93-e50e-4e12-b8cf-d64b9e29d101",
+        "title": "German",
+        "link": "/api/v4/subjects/a2582b93-e50e-4e12-b8cf-d64b9e29d101",
+        "colour": "#F2DCDC"
+      },
+      {
+        "id": "94eb09ae-cabc-46b5-85c9-2170004ce2ef",
+        "title": "Spanish",
+        "link": "/api/v4/subjects/94eb09ae-cabc-46b5-85c9-2170004ce2ef",
+        "colour": "#FFF8CD"
+      },
+      {
+        "id": "bae98002-f1a1-4d6f-b156-1e2db439079b",
+        "title": "French",
+        "link": "/api/v4/subjects/bae98002-f1a1-4d6f-b156-1e2db439079b",
+        "colour": "#E3EEFF"
+      },
+      {
+        "id": "ef539b02-889a-4469-b947-3a919085589d",
+        "title": "Health and Social Care",
+        "link": "/api/v4/subjects/ef539b02-889a-4469-b947-3a919085589d",
+        "colour": null
+      },
+      {
+        "id": "15cfac92-40cd-447c-9184-f949be95f974",
+        "title": "Politics",
+        "link": "/api/v4/subjects/15cfac92-40cd-447c-9184-f949be95f974",
+        "colour": "#E3EEFF"
+      },
+      {
+        "id": "aae23110-6006-47e6-8b87-977d856e9378",
+        "title": "Physical Education",
+        "link": "/api/v4/subjects/aae23110-6006-47e6-8b87-977d856e9378",
+        "colour": "#E5DCF2"
+      },
+      {
+        "id": "8709c182-35ab-42a3-a1ea-9ad058597ebf",
+        "title": "Computer Science",
+        "link": "/api/v4/subjects/8709c182-35ab-42a3-a1ea-9ad058597ebf",
+        "colour": ""
+      },
+      {
+        "id": "34e4103e-52ae-42e7-8ee8-17b5361be678",
+        "title": "Drama",
+        "link": "/api/v4/subjects/34e4103e-52ae-42e7-8ee8-17b5361be678",
+        "colour": null
+      },
+      {
+        "id": "91a1b8dc-1021-4ddd-a498-8d4a3f2dadf6",
+        "title": "Music",
+        "link": "/api/v4/subjects/91a1b8dc-1021-4ddd-a498-8d4a3f2dadf6",
+        "colour": null
+      },
+      {
+        "id": "1d98b265-bf62-44f6-865c-e6655ba1b660",
+        "title": "Business",
+        "link": "/api/v4/subjects/1d98b265-bf62-44f6-865c-e6655ba1b660",
+        "colour": "#FAE8DC"
+      },
+      {
+        "id": "91563e2e-8eb0-4425-ab1c-a16a91a3ffc5",
+        "title": "Media ",
+        "link": "/api/v4/subjects/91563e2e-8eb0-4425-ab1c-a16a91a3ffc5",
+        "colour": null
+      },
+      {
+        "id": "989acfe0-434e-4d80-ba2a-58146dfc6112",
+        "title": "Film",
+        "link": "/api/v4/subjects/989acfe0-434e-4d80-ba2a-58146dfc6112",
+        "colour": null
+      }
+    ],
+    "link": "/api/v4/qualifications/f4f52fe7-d209-4c9e-b7ad-364c76af5c48",
+    "default_products": []
+  },
+  {
+    "id": "fe2f4c86-c596-4545-a8c2-65503ecb87d1",
+    "name": "Undergraduate",
+    "country": null,
+    "subjects": [
+      {
+        "id": "810ce3a3-58f4-4862-95d7-ebc55702f6d6",
+        "title": "Biochemistry",
+        "link": "/api/v4/subjects/810ce3a3-58f4-4862-95d7-ebc55702f6d6",
+        "colour": "#F4F7D2"
+      },
+      {
+        "id": "14c16af1-6b94-49d7-afe6-3702f683435c",
+        "title": "Biology",
+        "link": "/api/v4/subjects/14c16af1-6b94-49d7-afe6-3702f683435c",
+        "colour": "#DBFAF4"
+      },
+      {
+        "id": "0a4870ed-b16c-423b-86ac-fe125808fbb1",
+        "title": "International Relations",
+        "link": "/api/v4/subjects/0a4870ed-b16c-423b-86ac-fe125808fbb1",
+        "colour": "#E6D8D8"
+      },
+      {
+        "id": "89db663b-f4fa-47b4-95cb-b015c7c266e3",
+        "title": "Chemistry",
+        "link": "/api/v4/subjects/89db663b-f4fa-47b4-95cb-b015c7c266e3",
+        "colour": "#FDE2E4"
+      },
+      {
+        "id": "88c270de-e15e-4e12-89e7-24c28d1a365f",
+        "title": "Marketing",
+        "link": "/api/v4/subjects/88c270de-e15e-4e12-89e7-24c28d1a365f",
+        "colour": "#D8D7DE"
+      },
+      {
+        "id": "15cfac92-40cd-447c-9184-f949be95f974",
+        "title": "Politics",
+        "link": "/api/v4/subjects/15cfac92-40cd-447c-9184-f949be95f974",
+        "colour": "#E3EEFF"
+      },
+      {
+        "id": "231f433b-23c1-46e1-bc17-fc8418556337",
+        "title": "Management",
+        "link": "/api/v4/subjects/231f433b-23c1-46e1-bc17-fc8418556337",
+        "colour": "#D8D7DE"
+      }
+    ],
+    "link": "/api/v4/qualifications/fe2f4c86-c596-4545-a8c2-65503ecb87d1",
+    "default_products": []
+  }
+]
