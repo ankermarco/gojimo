@@ -16,7 +16,7 @@ extension Qualification {
 
     @NSManaged var id: String?
     @NSManaged var name: String?
-    @NSManaged var qToCountry: NSManagedObject?
+    @NSManaged var qToCountry: Country?
     @NSManaged var qToSubject: NSSet?
 
 }

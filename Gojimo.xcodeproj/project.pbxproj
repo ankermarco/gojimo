@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A29AEBF1CD2AE3A00200B96 /* QualificationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A29AEBE1CD2AE3A00200B96 /* QualificationTableViewController.swift */; };
+		8A29AED21CD2B66900200B96 /* Qualification+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A29AECC1CD2B66900200B96 /* Qualification+CoreDataProperties.swift */; };
+		8A29AED31CD2B66900200B96 /* Qualification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A29AECD1CD2B66900200B96 /* Qualification.swift */; };
+		8A29AED41CD2B66900200B96 /* Subject+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A29AECE1CD2B66900200B96 /* Subject+CoreDataProperties.swift */; };
+		8A29AED51CD2B66900200B96 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A29AECF1CD2B66900200B96 /* Subject.swift */; };
+		8A29AED61CD2B66900200B96 /* Country+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A29AED01CD2B66900200B96 /* Country+CoreDataProperties.swift */; };
+		8A29AED71CD2B66900200B96 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A29AED11CD2B66900200B96 /* Country.swift */; };
 		8A829EDE1CD22B7100E13F62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A829EDD1CD22B7100E13F62 /* AppDelegate.swift */; };
-		8A829EE01CD22B7100E13F62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A829EDF1CD22B7100E13F62 /* ViewController.swift */; };
 		8A829EE31CD22B7100E13F62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A829EE11CD22B7100E13F62 /* Main.storyboard */; };
 		8A829EE61CD22B7100E13F62 /* Gojimo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8A829EE41CD22B7100E13F62 /* Gojimo.xcdatamodeld */; };
 		8A829EE81CD22B7100E13F62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A829EE71CD22B7100E13F62 /* Assets.xcassets */; };
@@ -37,9 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A29AEBE1CD2AE3A00200B96 /* QualificationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QualificationTableViewController.swift; sourceTree = "<group>"; };
+		8A29AECC1CD2B66900200B96 /* Qualification+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Qualification+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8A29AECD1CD2B66900200B96 /* Qualification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Qualification.swift; sourceTree = "<group>"; };
+		8A29AECE1CD2B66900200B96 /* Subject+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Subject+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8A29AECF1CD2B66900200B96 /* Subject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
+		8A29AED01CD2B66900200B96 /* Country+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8A29AED11CD2B66900200B96 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		8A829EDA1CD22B7000E13F62 /* Gojimo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gojimo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A829EDD1CD22B7100E13F62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8A829EDF1CD22B7100E13F62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8A829EE21CD22B7100E13F62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A829EE51CD22B7100E13F62 /* Gojimo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Gojimo.xcdatamodel; sourceTree = "<group>"; };
 		8A829EE71CD22B7100E13F62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -80,6 +92,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A29AED81CD2B68500200B96 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				8A829EE41CD22B7100E13F62 /* Gojimo.xcdatamodeld */,
+				8A29AECC1CD2B66900200B96 /* Qualification+CoreDataProperties.swift */,
+				8A29AECD1CD2B66900200B96 /* Qualification.swift */,
+				8A29AECE1CD2B66900200B96 /* Subject+CoreDataProperties.swift */,
+				8A29AECF1CD2B66900200B96 /* Subject.swift */,
+				8A29AED01CD2B66900200B96 /* Country+CoreDataProperties.swift */,
+				8A29AED11CD2B66900200B96 /* Country.swift */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		8A29AED91CD2B69900200B96 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A829EE71CD22B7100E13F62 /* Assets.xcassets */,
+				8A829EE91CD22B7100E13F62 /* LaunchScreen.storyboard */,
+				8A829EEC1CD22B7100E13F62 /* Info.plist */,
+			);
+			name = "Support Files";
+			sourceTree = "<group>";
+		};
 		8A829ED11CD22B7000E13F62 = {
 			isa = PBXGroup;
 			children = (
@@ -103,15 +139,13 @@
 		8A829EDC1CD22B7100E13F62 /* Gojimo */ = {
 			isa = PBXGroup;
 			children = (
-				8A829EDD1CD22B7100E13F62 /* AppDelegate.swift */,
-				8A829EDF1CD22B7100E13F62 /* ViewController.swift */,
 				8A829EE11CD22B7100E13F62 /* Main.storyboard */,
-				8A829EE71CD22B7100E13F62 /* Assets.xcassets */,
-				8A829EE91CD22B7100E13F62 /* LaunchScreen.storyboard */,
-				8A829EEC1CD22B7100E13F62 /* Info.plist */,
-				8A829EE41CD22B7100E13F62 /* Gojimo.xcdatamodeld */,
+				8A829EDD1CD22B7100E13F62 /* AppDelegate.swift */,
+				8A29AED81CD2B68500200B96 /* Core Data */,
 				8A829F101CD26C5300E13F62 /* GomojiManagerDelegate.swift */,
 				8A829F121CD2747F00E13F62 /* GomojiCommunicatorDelegate.swift */,
+				8A29AEBE1CD2AE3A00200B96 /* QualificationTableViewController.swift */,
+				8A29AED91CD2B69900200B96 /* Support Files */,
 			);
 			path = Gojimo;
 			sourceTree = "<group>";
@@ -265,11 +299,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A29AED61CD2B66900200B96 /* Country+CoreDataProperties.swift in Sources */,
 				8A829EE61CD22B7100E13F62 /* Gojimo.xcdatamodeld in Sources */,
 				8A829F111CD26C5300E13F62 /* GomojiManagerDelegate.swift in Sources */,
-				8A829EE01CD22B7100E13F62 /* ViewController.swift in Sources */,
 				8A829F131CD2747F00E13F62 /* GomojiCommunicatorDelegate.swift in Sources */,
+				8A29AED21CD2B66900200B96 /* Qualification+CoreDataProperties.swift in Sources */,
+				8A29AED41CD2B66900200B96 /* Subject+CoreDataProperties.swift in Sources */,
 				8A829EDE1CD22B7100E13F62 /* AppDelegate.swift in Sources */,
+				8A29AED71CD2B66900200B96 /* Country.swift in Sources */,
+				8A29AED31CD2B66900200B96 /* Qualification.swift in Sources */,
+				8A29AED51CD2B66900200B96 /* Subject.swift in Sources */,
+				8A29AEBF1CD2AE3A00200B96 /* QualificationTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +474,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = GojimoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ke.GojimoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -446,6 +487,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = GojimoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ke.GojimoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -494,6 +536,7 @@
 				8A829F071CD22B7100E13F62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A829F081CD22B7100E13F62 /* Build configuration list for PBXNativeTarget "GojimoTests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +545,7 @@
 				8A829F0A1CD22B7100E13F62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A829F0B1CD22B7100E13F62 /* Build configuration list for PBXNativeTarget "GojimoUITests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +554,7 @@
 				8A829F0D1CD22B7100E13F62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

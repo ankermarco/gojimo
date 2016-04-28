@@ -1,4 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="14F1713" minimumToolsVersion="Automatic">
+    <entity name="Country" representedClassName=".Country" syncable="YES">
+        <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="created_at" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="link" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updated_at" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="countryToQ" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Qualification" inverseName="qToCountry" inverseEntity="Qualification" syncable="YES"/>
+    </entity>
+    <entity name="Qualification" representedClassName=".Qualification" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="qToCountry" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Country" inverseName="countryToQ" inverseEntity="Country" syncable="YES"/>
+        <relationship name="qToSubject" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Subject" inverseName="subjectToQ" inverseEntity="Subject" syncable="YES"/>
+    </entity>
+    <entity name="Subject" representedClassName=".Subject" syncable="YES">
+        <attribute name="color" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="link" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="subjectToQ" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Qualification" inverseName="qToSubject" inverseEntity="Qualification" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Qualification" positionX="-207" positionY="-306" width="128" height="103"/>
+        <element name="Country" positionX="34" positionY="-351" width="128" height="133"/>
+        <element name="Subject" positionX="-126" positionY="-117" width="128" height="118"/>
+    </elements>
 </model>

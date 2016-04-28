@@ -7,8 +7,12 @@
 //
 
 import UIKit
+import CoreData
 
 class QualificationTableViewController: UITableViewController {
+    
+    var qualifications = [NSManagedObject]()
+    var moc: NSManagedObjectContext!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +22,9 @@ class QualificationTableViewController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+        
+        let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+        moc = appDelegate.managedObjectContext
     }
 
     override func didReceiveMemoryWarning() {
@@ -29,23 +36,24 @@ class QualificationTableViewController: UITableViewController {
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return qualifications.count
     }
 
-    /*
+
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath)
+        let cell = tableView.dequeueReusableCellWithIdentifier("QualificationCell", forIndexPath: indexPath)
 
         // Configure the cell...
+        //cell.textLabel?.text = qualifications[indexPath.row]
 
         return cell
     }
-    */
+    
 
     /*
     // Override to support conditional editing of the table view.
