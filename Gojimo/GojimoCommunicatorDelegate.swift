@@ -1,5 +1,5 @@
 //
-//  GomojiManagerDelegate.swift
+//  GojimoCommunicatorDelegate.swift
 //  Gojimo
 //
 //  Created by Ke Ma on 28/04/2016.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol GomojiManagerDelegate {
-    func didReceiveQualifications(qualifications: [String])
+protocol GojimoCommunicatorDelegate {
+    func receivedQualificationsJSON(jsonObject: NSData)
     func fetchingQualificationsFailedWithError(error: NSError)
 }
