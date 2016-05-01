@@ -26,19 +26,23 @@ class QualificationTableViewController: UITableViewController, GojimoManagerDele
         manager?.communicator?.delegate = manager
         manager?.delegate = self
         
-        self.startFetchingQualifications()
+        self.prepopulateData()
+        
+        // Load Data From Core Data and display
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
-        
-        let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
-        moc = appDelegate.managedObjectContext
     }
     
     // MARK - GojimoManagerDelegate Methods
+    
+    func checkLocalCoreDataExists()->Bool {
+        print("Check if core data exists...")
+        return true
+    }
     
     func fetchingQualificationsFailedWithError(error: NSError) {
         print("Error: \(error)")
@@ -46,14 +50,18 @@ class QualificationTableViewController: UITableViewController, GojimoManagerDele
     
     func didReceiveQualifications(qualifications: [String]) {
         print("didReceivedQualifications")
+        
+        // Pass qualification to view
+        
     }
     
-    // MARK - start fetch qualications
-    func startFetchingQualifications() {
+    // MARK - start prepopulateData
+    // Use prepopulate data to determine whether add new json into core data
+    func prepopulateData() {
         
-        print("startFetchingQualifications")
-            
-        self.manager?.fetchQualifications(self.gojimoUrl)
+        print("Prepopulating Data...")
+        self.manager?.prepopulateData(self.gojimoUrl)
+        
     }
 
     override func didReceiveMemoryWarning() {

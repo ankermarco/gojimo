@@ -9,6 +9,7 @@
 import Foundation
 
 protocol GojimoManagerDelegate {
+    func checkLocalCoreDataExists()-> Bool
     func didReceiveQualifications(qualifications: [String])
     func fetchingQualificationsFailedWithError(error: NSError)
 }
