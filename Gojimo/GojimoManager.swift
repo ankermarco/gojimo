@@ -46,6 +46,11 @@ class GojimoManager: NSObject, GojimoCommunicatorDelegate {
             self.builder = QualificationBuilder()
            try self.builder?.qualificationsFromJSON(jsonObject)
             
+            
+            //print(self.builder?.fetchAllQualificationsFromCoreData())
+            
+            self.delegate?.didReceiveQualifications((self.builder?.fetchAllQualificationsFromCoreData())!)
+            
         } catch {
             
             let catchError = error as NSError

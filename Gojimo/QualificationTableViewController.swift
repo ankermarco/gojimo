@@ -13,7 +13,7 @@ class QualificationTableViewController: UITableViewController, GojimoManagerDele
     
     let gojimoUrl = "https://api.gojimo.net/api/v4/qualifications"
     
-    var qualifications = [NSManagedObject]()
+    var qualifications:[Qualification] = []
     var moc: NSManagedObjectContext!
     
     var manager: GojimoManager?
@@ -48,10 +48,12 @@ class QualificationTableViewController: UITableViewController, GojimoManagerDele
         print("Error: \(error)")
     }
     
-    func didReceiveQualifications(qualifications: [String]) {
+    func didReceiveQualifications(qualifications: [Qualification]) {
         print("didReceivedQualifications")
-        
+        self.qualifications = qualifications
+        print("here--> \(qualifications[0])")
         // Pass qualification to view
+        self.tableView.reloadData()
         
     }
     
@@ -78,7 +80,8 @@ class QualificationTableViewController: UITableViewController, GojimoManagerDele
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return qualifications.count
+        print("qualifications count: \(qualifications.count)")
+        return self.qualifications.count
     }
 
 
@@ -86,8 +89,9 @@ class QualificationTableViewController: UITableViewController, GojimoManagerDele
         let cell = tableView.dequeueReusableCellWithIdentifier("QualificationCell", forIndexPath: indexPath)
 
         // Configure the cell...
-        //cell.textLabel?.text = qualifications[indexPath.row]
-
+        let qualification = self.qualifications[indexPath.row]
+        print("qualification \(qualification)");
+        cell.textLabel?.text = "rOW"//qualification.name
         return cell
     }
     
