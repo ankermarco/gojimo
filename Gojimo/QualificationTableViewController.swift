@@ -9,13 +9,24 @@
 import UIKit
 import CoreData
 
-class QualificationTableViewController: UITableViewController {
+class QualificationTableViewController: UITableViewController, GojimoManagerDelegate {
+    
+    let gojimoUrl = "https://api.gojimo.net/api/v4/qualifications"
     
     var qualifications = [NSManagedObject]()
     var moc: NSManagedObjectContext!
+    
+    var manager: GojimoManager?
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        manager = GojimoManager()
+        manager?.communicator = GojimoCommunicator()
+        manager?.communicator?.delegate = manager
+        manager?.delegate = self
+        
+        self.startFetchingQualifications()
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -25,6 +36,24 @@ class QualificationTableViewController: UITableViewController {
         
         let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
         moc = appDelegate.managedObjectContext
+    }
+    
+    // MARK - GojimoManagerDelegate Methods
+    
+    func fetchingQualificationsFailedWithError(error: NSError) {
+        print("Error: \(error)")
+    }
+    
+    func didReceiveQualifications(qualifications: [String]) {
+        print("didReceivedQualifications")
+    }
+    
+    // MARK - start fetch qualications
+    func startFetchingQualifications() {
+        
+        print("startFetchingQualifications")
+            
+        self.manager?.fetchQualifications(self.gojimoUrl)
     }
 
     override func didReceiveMemoryWarning() {
