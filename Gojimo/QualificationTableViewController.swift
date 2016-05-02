@@ -74,6 +74,17 @@ class QualificationTableViewController: UITableViewController, GojimoManagerDele
         // Configure the cell...
         let cellQualification = self.qualifications[indexPath.row]
         cell.textLabel?.text = cellQualification.name
+        
+        let subjects = cellQualification.qToSubject
+        let count: Int = (subjects?.count)!
+        cell.detailTextLabel!.text? = String(count)
+        
+        if subjects?.count == 0 {
+            cell.selectionStyle = UITableViewCellSelectionStyle.None
+            cell.userInteractionEnabled = false
+            cell.contentView.alpha = 0.5
+        }
+        
         return cell
     }
 
@@ -112,14 +123,27 @@ class QualificationTableViewController: UITableViewController, GojimoManagerDele
     }
     */
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        if segue.identifier == "qToSubjects" {
+            
+            let subjectTableViewController = segue.destinationViewController as! SubjectTableViewController
+            
+            // Pass moc over to subjectTableViewController
+            subjectTableViewController.moc = (UIApplication.sharedApplication().delegate as? AppDelegate)?.managedObjectContext
+            // Get the cell that generated this segue.
+            if let selectedEventCell = sender as? UITableViewCell {
+                let indexPath = tableView.indexPathForCell(selectedEventCell)!
+                let selectedQ = qualifications[indexPath.row]
+                subjectTableViewController.qualification = selectedQ
+            }
+            
+        }
+        
     }
-    */
+    
 
 }

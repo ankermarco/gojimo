@@ -18,6 +18,7 @@
 		8A29AED71CD2B66900200B96 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A29AED11CD2B66900200B96 /* Country.swift */; };
 		8A2BB3731CD75F880065360E /* Log+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2BB3711CD75F880065360E /* Log+CoreDataProperties.swift */; };
 		8A2BB3741CD75F880065360E /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2BB3721CD75F880065360E /* Log.swift */; };
+		8A2BB4191CD7CBC90065360E /* SubjectTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2BB4181CD7CBC90065360E /* SubjectTableViewController.swift */; };
 		8A7AB6061CD34BF500774D8B /* GojimoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7AB6051CD34BF500774D8B /* GojimoManager.swift */; };
 		8A829EDE1CD22B7100E13F62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A829EDD1CD22B7100E13F62 /* AppDelegate.swift */; };
 		8A829EE31CD22B7100E13F62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A829EE11CD22B7100E13F62 /* Main.storyboard */; };
@@ -59,6 +60,7 @@
 		8A29AED11CD2B66900200B96 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		8A2BB3711CD75F880065360E /* Log+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Log+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		8A2BB3721CD75F880065360E /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		8A2BB4181CD7CBC90065360E /* SubjectTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubjectTableViewController.swift; sourceTree = "<group>"; };
 		8A7AB6051CD34BF500774D8B /* GojimoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GojimoManager.swift; sourceTree = "<group>"; };
 		8A829EDA1CD22B7000E13F62 /* Gojimo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gojimo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A829EDD1CD22B7100E13F62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				8A29AEBE1CD2AE3A00200B96 /* QualificationTableViewController.swift */,
+				8A2BB4181CD7CBC90065360E /* SubjectTableViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -346,6 +349,7 @@
 				8A29AED51CD2B66900200B96 /* Subject.swift in Sources */,
 				8A29AEBF1CD2AE3A00200B96 /* QualificationTableViewController.swift in Sources */,
 				8A0FC6C01CD5650B0016250F /* QualificationBuilder.swift in Sources */,
+				8A2BB4191CD7CBC90065360E /* SubjectTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

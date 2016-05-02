@@ -15,6 +15,7 @@ import UIKit
  */
 class GojimoCommunicator: NSObject {
     var delegate: GojimoCommunicatorDelegate?
+    var lastModifiedDateFromServer: NSDate?
     
     // Check Http request header to tell whether continue synchronously
     func urlContentModifiedAt(urlPath: String) -> NSDate? {
@@ -34,13 +35,14 @@ class GojimoCommunicator: NSObject {
                 dispatch_semaphore_signal(semaphore)
                 
                 //serverDate is now: 2015-10-19 05:57:12 UTC
-                print("ServerDate: \(serverDate)")
+                //print("ServerDate: \(serverDate)")
                 
             }
         }
         
         task.resume()
         dispatch_semaphore_wait(semaphore, DISPATCH_TIME_FOREVER)
+        self.lastModifiedDateFromServer = serverDate
         return serverDate
     }
     

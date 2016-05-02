@@ -20,6 +20,8 @@ class GojimoManager: NSObject, GojimoCommunicatorDelegate {
         
         if self.isUpdateNecessary(lastModifiedDate) == true {
             self.fetchQualifications(urlPath)
+        } else {
+            self.delegate?.didReceiveQualifications()
         }
         
     }
@@ -42,7 +44,7 @@ class GojimoManager: NSObject, GojimoCommunicatorDelegate {
         
         do {
             self.builder = QualificationBuilder()
-            try self.builder?.qualificationsFromJSON(jsonObject)
+            try self.builder?.qualificationsFromJSON(jsonObject, lastModifiedDate: self.communicator?.lastModifiedDateFromServer)
             self.delegate?.didReceiveQualifications()
             
         } catch {

@@ -21,20 +21,20 @@ class QualificationBuilder: NSObject {
      And return qualifications
      */
     // Use throws to propagate the potential error from NSJSONSerialization.JSONObjectWithData()
-    func qualificationsFromJSON(jsonObject: NSData) throws {
+    func qualificationsFromJSON(jsonObject: NSData, lastModifiedDate :NSDate?) throws {
         // Parse JSON and save into Core data
         
         do{
             self.qualifications = try NSJSONSerialization.JSONObjectWithData(jsonObject, options: NSJSONReadingOptions.MutableContainers) as? NSArray
             
             // Save to core data
-            self.saveJSONtoCoreData()
+            self.saveJSONtoCoreData(lastModifiedDate)
             
         }
         
     }
     
-    private func saveJSONtoCoreData() {
+    private func saveJSONtoCoreData(Date: NSDate?) {
         //print(self.qualifications!)
         self.moc = (UIApplication.sharedApplication().delegate as? AppDelegate)?.managedObjectContext
         for json in self.qualifications! {
@@ -73,6 +73,12 @@ class QualificationBuilder: NSObject {
             }
             
         }
+        
+        // Log
+        print(Date);
+        
+        let log = NSEntityDescription.insertNewObjectForEntityForName("Log", inManagedObjectContext: self.moc!) as! Log
+        log.modified_at = Date
         
         (UIApplication.sharedApplication().delegate as? AppDelegate)?.saveContext()
         
