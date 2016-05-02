@@ -47,9 +47,9 @@ class GojimoManager: NSObject, GojimoCommunicatorDelegate {
            try self.builder?.qualificationsFromJSON(jsonObject)
             
             
-            //print(self.builder?.fetchAllQualificationsFromCoreData())
+            //print("inside receivedQualificationsJSON \(self.builder?.fetchAllQualificationsFromCoreData())")
             
-            self.delegate?.didReceiveQualifications((self.builder?.fetchAllQualificationsFromCoreData())!)
+            self.delegate?.didReceiveQualifications(QualificationBuilder.fetchAllQualificationsFromCoreData())
             
         } catch {
             

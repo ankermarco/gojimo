@@ -91,7 +91,7 @@ class QualificationBuilder: NSObject {
         
     }
     
-    func fetchAllQualificationsFromCoreData()->[Qualification]{
+    class func fetchAllQualificationsFromCoreData()->[Qualification]{
         let coreDataStack = CoreDataStack()
         let request = NSFetchRequest(entityName: "Qualification")
         var qualificationsFromCoreData: [Qualification] = []
@@ -103,6 +103,7 @@ class QualificationBuilder: NSObject {
         catch {
             fatalError("Error in getting list of home by status")
         }
+
         return qualificationsFromCoreData
         
     }

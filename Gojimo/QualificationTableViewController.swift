@@ -27,14 +27,6 @@ class QualificationTableViewController: UITableViewController, GojimoManagerDele
         manager?.delegate = self
         
         self.prepopulateData()
-        
-        // Load Data From Core Data and display
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
     }
     
     // MARK - GojimoManagerDelegate Methods
@@ -48,10 +40,10 @@ class QualificationTableViewController: UITableViewController, GojimoManagerDele
         print("Error: \(error)")
     }
     
-    func didReceiveQualifications(qualifications: [Qualification]) {
+    func didReceiveQualifications(qualifications1: [Qualification]) {
         print("didReceivedQualifications")
-        self.qualifications = qualifications
-        print("here--> \(qualifications[0])")
+        self.qualifications = qualifications1
+        print("here--> \(self.qualifications[0].name)")
         // Pass qualification to view
         self.tableView.reloadData()
         
@@ -80,7 +72,7 @@ class QualificationTableViewController: UITableViewController, GojimoManagerDele
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        print("qualifications count: \(qualifications.count)")
+        print("qualifications count-->: \(qualifications.count)")
         return self.qualifications.count
     }
 
@@ -89,9 +81,11 @@ class QualificationTableViewController: UITableViewController, GojimoManagerDele
         let cell = tableView.dequeueReusableCellWithIdentifier("QualificationCell", forIndexPath: indexPath)
 
         // Configure the cell...
-        let qualification = self.qualifications[indexPath.row]
-        print("qualification \(qualification)");
-        cell.textLabel?.text = "rOW"//qualification.name
+        let cellQualification = self.qualifications[indexPath.row]
+        print("indexPath.row ---> \(indexPath.row)")
+        print("cellqualification------>> \(cellQualification)");
+        print("cellqualification name------>> \(cellQualification.name)");
+        cell.textLabel?.text = cellQualification.name
         return cell
     }
     
