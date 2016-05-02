@@ -107,4 +107,10 @@ class QualificationBuilder: NSObject {
         return qualificationsFromCoreData
         
     }
+    
+    class func saveModified(modifiedAt: NSDate?) -> Bool{
+        
+        
+        return true
+    }
 }

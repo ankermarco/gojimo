@@ -40,22 +40,25 @@ class QualificationTableViewController: UITableViewController, GojimoManagerDele
         print("Error: \(error)")
     }
     
-    func didReceiveQualifications(qualifications1: [Qualification]) {
+    func didReceiveQualifications() {
         print("didReceivedQualifications")
-        self.qualifications = qualifications1
-        print("here--> \(self.qualifications[0].name)")
+ 
         // Pass qualification to view
-        self.tableView.reloadData()
-        
+        // Core Data must fetch from main thread
+        dispatch_async(dispatch_get_main_queue()) {
+            self.qualifications = QualificationBuilder.fetchAllQualificationsFromCoreData()
+            
+            print(self.qualifications[14].name)
+            self.tableView.reloadData()
+        }
     }
     
     // MARK - start prepopulateData
     // Use prepopulate data to determine whether add new json into core data
     func prepopulateData() {
-        
         print("Prepopulating Data...")
-        self.manager?.prepopulateData(self.gojimoUrl)
         
+        self.manager?.prepopulateData(self.gojimoUrl)
     }
 
     override func didReceiveMemoryWarning() {
@@ -66,13 +69,12 @@ class QualificationTableViewController: UITableViewController, GojimoManagerDele
     // MARK: - Table view data source
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
+        
         return 1
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        print("qualifications count-->: \(qualifications.count)")
+
         return self.qualifications.count
     }
 
@@ -82,11 +84,14 @@ class QualificationTableViewController: UITableViewController, GojimoManagerDele
 
         // Configure the cell...
         let cellQualification = self.qualifications[indexPath.row]
-        print("indexPath.row ---> \(indexPath.row)")
-        print("cellqualification------>> \(cellQualification)");
-        print("cellqualification name------>> \(cellQualification.name)");
-        cell.textLabel?.text = cellQualification.name
+    
+        print("\(indexPath.row)===> \(cellQualification.name)")
+        cell.textLabel?.text = "ROW"//cellQualification.name
         return cell
+    }
+    
+    override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        return 44.0
     }
     
 

@@ -16,6 +16,8 @@
 		8A29AED51CD2B66900200B96 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A29AECF1CD2B66900200B96 /* Subject.swift */; };
 		8A29AED61CD2B66900200B96 /* Country+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A29AED01CD2B66900200B96 /* Country+CoreDataProperties.swift */; };
 		8A29AED71CD2B66900200B96 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A29AED11CD2B66900200B96 /* Country.swift */; };
+		8A2BB3731CD75F880065360E /* Log+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2BB3711CD75F880065360E /* Log+CoreDataProperties.swift */; };
+		8A2BB3741CD75F880065360E /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2BB3721CD75F880065360E /* Log.swift */; };
 		8A2D9B651CD5E4BC007282B5 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2D9B641CD5E4BC007282B5 /* CoreDataStack.swift */; };
 		8A7AB6061CD34BF500774D8B /* GojimoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7AB6051CD34BF500774D8B /* GojimoManager.swift */; };
 		8A829EDE1CD22B7100E13F62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A829EDD1CD22B7100E13F62 /* AppDelegate.swift */; };
@@ -56,6 +58,8 @@
 		8A29AECF1CD2B66900200B96 /* Subject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
 		8A29AED01CD2B66900200B96 /* Country+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		8A29AED11CD2B66900200B96 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		8A2BB3711CD75F880065360E /* Log+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Log+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8A2BB3721CD75F880065360E /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
 		8A2D9B641CD5E4BC007282B5 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		8A7AB6051CD34BF500774D8B /* GojimoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GojimoManager.swift; sourceTree = "<group>"; };
 		8A829EDA1CD22B7000E13F62 /* Gojimo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gojimo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,6 +114,8 @@
 				8A29AECF1CD2B66900200B96 /* Subject.swift */,
 				8A29AED01CD2B66900200B96 /* Country+CoreDataProperties.swift */,
 				8A29AED11CD2B66900200B96 /* Country.swift */,
+				8A2BB3711CD75F880065360E /* Log+CoreDataProperties.swift */,
+				8A2BB3721CD75F880065360E /* Log.swift */,
 			);
 			name = "Core Data";
 			sourceTree = "<group>";
@@ -331,9 +337,11 @@
 				8A829EE61CD22B7100E13F62 /* Gojimo.xcdatamodeld in Sources */,
 				8A829F111CD26C5300E13F62 /* GojimoManagerDelegate.swift in Sources */,
 				8A829F131CD2747F00E13F62 /* GojimoCommunicatorDelegate.swift in Sources */,
+				8A2BB3731CD75F880065360E /* Log+CoreDataProperties.swift in Sources */,
 				8A2D9B651CD5E4BC007282B5 /* CoreDataStack.swift in Sources */,
 				8A0FC6BE1CD5524C0016250F /* GojimoCommunicator.swift in Sources */,
 				8A29AED21CD2B66900200B96 /* Qualification+CoreDataProperties.swift in Sources */,
+				8A2BB3741CD75F880065360E /* Log.swift in Sources */,
 				8A29AED41CD2B66900200B96 /* Subject+CoreDataProperties.swift in Sources */,
 				8A7AB6061CD34BF500774D8B /* GojimoManager.swift in Sources */,
 				8A829EDE1CD22B7100E13F62 /* AppDelegate.swift in Sources */,
@@ -483,10 +491,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Gojimo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ke.Gojimo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -494,10 +505,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Gojimo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ke.Gojimo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

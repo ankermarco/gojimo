@@ -17,7 +17,7 @@ class GojimoCommunicator: NSObject {
     var delegate: GojimoCommunicatorDelegate?
     
     // Check Http request header to tell whether continue
-    func isURLContentModified(urlPath: String) -> NSDate? {
+    func urlContentModifiedAt(urlPath: String) -> NSDate? {
         let url = NSURL(string: urlPath)
         let request: NSMutableURLRequest = NSMutableURLRequest(URL: url!)
         var serverDate: NSDate?
@@ -33,7 +33,13 @@ class GojimoCommunicator: NSObject {
                 serverDate = dateFormatter.dateFromString(date) as NSDate?
                 
                 //serverDate is now: 2015-10-19 05:57:12 UTC
-                //print("ServerDate: \(serverDate)")
+                print("ServerDate: \(serverDate)")
+                
+                // Save to core data
+                //if QualificationBuilder.saveModified(serverDate?) == true {
+                    
+                //}
+                
             }
         }
         
