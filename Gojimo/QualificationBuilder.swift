@@ -61,7 +61,7 @@ class QualificationBuilder: NSObject {
                 for eachSubject in eachSubjects
                 {
                    let subject = NSEntityDescription.insertNewObjectForEntityForName("Subject", inManagedObjectContext: self.moc!) as! Subject
-                    subject.color = eachSubject["color"] as? String
+                    subject.color = eachSubject["colour"] as? String
                     subject.id = eachSubject["id"] as? String
                     subject.link = eachSubject["link"] as? String
                     subject.title = eachSubject["title"] as? String

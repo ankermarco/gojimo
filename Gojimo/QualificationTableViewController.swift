@@ -79,7 +79,7 @@ class QualificationTableViewController: UITableViewController, GojimoManagerDele
         let count: Int = (subjects?.count)!
         cell.detailTextLabel!.text? = String(count)
         
-        if subjects?.count == 0 {
+        if count == 0 {
             cell.selectionStyle = UITableViewCellSelectionStyle.None
             cell.userInteractionEnabled = false
             cell.contentView.alpha = 0.5
