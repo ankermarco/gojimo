@@ -17,18 +17,8 @@ class GojimoManager: NSObject, GojimoCommunicatorDelegate {
     func prepopulateData(urlPath: String) {
         
         let lastModifiedDate = self.communicator?.urlContentModifiedAt(urlPath)
-        print("last modifieddate ======> \(lastModifiedDate)")
         
-        // fetch last modifiedDate from core data
-        //var lastModifiedDateFromCoreData =
-        
-        // core data exist
-        if ( (self.delegate?.checkLocalCoreDataExists() == true) &&
-            lastModifiedDate == "the one from core data"
-            ) {
-            // do nothing
-        } else {
-            // pull json from server and save to core data
+        if self.isUpdateNecessary(lastModifiedDate) == true {
             self.fetchQualifications(urlPath)
         }
         
@@ -36,6 +26,10 @@ class GojimoManager: NSObject, GojimoCommunicatorDelegate {
     
     private func fetchQualifications(urlPath: String) {
         self.communicator?.fetchQualifications(urlPath)
+    }
+    
+    private func isUpdateNecessary(lastModifiedDate: NSDate?) -> Bool {
+        return !QualificationBuilder.checkLastModifiedDateMatch(lastModifiedDate)
     }
     
     

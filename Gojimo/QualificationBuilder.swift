@@ -15,6 +15,7 @@ import CoreData
 class QualificationBuilder: NSObject {
 
     var qualifications: NSArray?
+    var moc: NSManagedObjectContext?
     /*
      This method will save json object into core data
      And return qualifications
@@ -35,17 +36,15 @@ class QualificationBuilder: NSObject {
     
     private func saveJSONtoCoreData() {
         //print(self.qualifications!)
-        
-        let coreDataStack = CoreDataStack()
-        
+        self.moc = (UIApplication.sharedApplication().delegate as? AppDelegate)?.managedObjectContext
         for json in self.qualifications! {
             
-            let qualification = NSEntityDescription.insertNewObjectForEntityForName("Qualification", inManagedObjectContext: coreDataStack.managedObjectContext) as! Qualification
+            let qualification = NSEntityDescription.insertNewObjectForEntityForName("Qualification", inManagedObjectContext: self.moc!) as! Qualification
             qualification.id = json["id"] as? String
             qualification.name = json["name"] as? String
             
             // Country
-            let country = NSEntityDescription.insertNewObjectForEntityForName("Country", inManagedObjectContext: coreDataStack.managedObjectContext) as! Country
+            let country = NSEntityDescription.insertNewObjectForEntityForName("Country", inManagedObjectContext: self.moc!) as! Country
             if let countryNode = json["country"] as? NSDictionary {
                 // countryNode is not nil
                 country.code = countryNode["code"] as? String
@@ -61,7 +60,7 @@ class QualificationBuilder: NSObject {
             if let eachSubjects = json["subjects"] as? NSArray {
                 for eachSubject in eachSubjects
                 {
-                   let subject = NSEntityDescription.insertNewObjectForEntityForName("Subject", inManagedObjectContext: coreDataStack.managedObjectContext) as! Subject
+                   let subject = NSEntityDescription.insertNewObjectForEntityForName("Subject", inManagedObjectContext: self.moc!) as! Subject
                     subject.color = eachSubject["color"] as? String
                     subject.id = eachSubject["id"] as? String
                     subject.link = eachSubject["link"] as? String
@@ -75,30 +74,30 @@ class QualificationBuilder: NSObject {
             
         }
         
-        coreDataStack.saveContext()
+        (UIApplication.sharedApplication().delegate as? AppDelegate)?.saveContext()
         
         var request = NSFetchRequest(entityName: "Qualification")
-        let qualificationCount = coreDataStack.managedObjectContext.countForFetchRequest(request, error: nil)
+        let qualificationCount = self.moc!.countForFetchRequest(request, error: nil)
         print("Total qualifications: \(qualificationCount)")
         
         request = NSFetchRequest(entityName: "Country")
-        let countryCount = coreDataStack.managedObjectContext.countForFetchRequest(request, error: nil)
+        let countryCount = self.moc!.countForFetchRequest(request, error: nil)
         print("Total contries: \(countryCount)")
         
         request = NSFetchRequest(entityName: "Subject")
-        let subjectCount = coreDataStack.managedObjectContext.countForFetchRequest(request, error: nil)
+        let subjectCount = self.moc!.countForFetchRequest(request, error: nil)
         print("Total subjects: \(subjectCount)")
         
     }
     
     class func fetchAllQualificationsFromCoreData()->[Qualification]{
-        let coreDataStack = CoreDataStack()
+        
         let request = NSFetchRequest(entityName: "Qualification")
         var qualificationsFromCoreData: [Qualification] = []
         
         do {
             // Regular request
-            qualificationsFromCoreData = try coreDataStack.managedObjectContext.executeFetchRequest(request) as! [Qualification]
+            qualificationsFromCoreData = try (UIApplication.sharedApplication().delegate as? AppDelegate)?.managedObjectContext.executeFetchRequest(request) as! [Qualification]
         }
         catch {
             fatalError("Error in getting list of home by status")
@@ -112,5 +111,25 @@ class QualificationBuilder: NSObject {
         
         
         return true
+    }
+    
+    class func checkLastModifiedDateMatch(lastModifiedDateFromServer: NSDate?) -> Bool {
+        var response: Bool = false
+        
+        let request = NSFetchRequest(entityName: "Log")
+        
+        let modifiedDatePredicate = NSPredicate(format: "modified_at == %@", lastModifiedDateFromServer!)
+        
+        request.predicate = modifiedDatePredicate
+        
+        let count = (UIApplication.sharedApplication().delegate as? AppDelegate)?.managedObjectContext.countForFetchRequest(request, error: nil)
+        print("Total modified date found: \(count)")
+            
+        if count == 1 {
+            response = true
+        }
+        
+        return response
+        
     }
 }

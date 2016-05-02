@@ -11,12 +11,10 @@ import CoreData
 
 class QualificationTableViewController: UITableViewController, GojimoManagerDelegate {
     
-    let gojimoUrl = "https://api.gojimo.net/api/v4/qualifications"
-    
     var qualifications:[Qualification] = []
-    var moc: NSManagedObjectContext!
-    
     var manager: GojimoManager?
+    let gojimoUrl = "https://api.gojimo.net/api/v4/qualifications"
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,13 +25,21 @@ class QualificationTableViewController: UITableViewController, GojimoManagerDele
         manager?.delegate = self
         
         self.prepopulateData()
+        
     }
     
-    // MARK - GojimoManagerDelegate Methods
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
     
-    func checkLocalCoreDataExists()->Bool {
-        print("Check if core data exists...")
-        return true
+    // MARK - start prepopulateData
+    // Use prepopulate data to determine whether add new json into core data
+    func prepopulateData() {
+        //print("Prepopulating Data...")
+        
+        self.manager?.prepopulateData(self.gojimoUrl)
     }
     
     func fetchingQualificationsFailedWithError(error: NSError) {
@@ -42,28 +48,11 @@ class QualificationTableViewController: UITableViewController, GojimoManagerDele
     
     func didReceiveQualifications() {
         print("didReceivedQualifications")
- 
-        // Pass qualification to view
-        // Core Data must fetch from main thread
+        
         dispatch_async(dispatch_get_main_queue()) {
             self.qualifications = QualificationBuilder.fetchAllQualificationsFromCoreData()
-            
-            print(self.qualifications[14].name)
             self.tableView.reloadData()
         }
-    }
-    
-    // MARK - start prepopulateData
-    // Use prepopulate data to determine whether add new json into core data
-    func prepopulateData() {
-        print("Prepopulating Data...")
-        
-        self.manager?.prepopulateData(self.gojimoUrl)
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
     // MARK: - Table view data source
@@ -84,16 +73,9 @@ class QualificationTableViewController: UITableViewController, GojimoManagerDele
 
         // Configure the cell...
         let cellQualification = self.qualifications[indexPath.row]
-    
-        print("\(indexPath.row)===> \(cellQualification.name)")
-        cell.textLabel?.text = "ROW"//cellQualification.name
+        cell.textLabel?.text = cellQualification.name
         return cell
     }
-    
-    override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-        return 44.0
-    }
-    
 
     /*
     // Override to support conditional editing of the table view.
